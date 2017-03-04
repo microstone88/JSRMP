@@ -1,0 +1,32 @@
+
+---------- General informations ----------
+Date	:2014-02-19 14:48:45
+Owner	:MICRO
+O.S.	:x86_64 MAC OS X platform (version 10.9.1)
+Ref	:default
+Exp.ID	:default
+
+---------- SUMMARY REPORT ----------
+
+[START @ Wed Feb 19 14:48:45 CET 2014]
+
+
+ *** Files Loading *** 
+
+[i] There are 100 alternatives loaded in total.
+[i] The alternatives are evaluated on 4 criteria.
+[i] There are 400 values in the performance matrix.
+[i] The reference set consist of 20 pairwise comparisons and 35 different alternatives.
+[i] 4/4 files have been loaded.
+[i] Loading completed!
+
+*** S-RMP Solver Ver.JUN,2012 ***
+[i] The problem has been solved with 2 reference points.
+[Help: See more details in the log.]
+
+[Aggregation Process]
+[i] Aggregation completed!
+
+[END @ Wed Feb 19 14:48:47 CET 2014]
+
+---------- END OF OUTPUTS ----------

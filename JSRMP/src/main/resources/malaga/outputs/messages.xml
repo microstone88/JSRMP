@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+  <methodMessages>
+    <message>
+      <text>[i] The current input path is malaga/inputs...</text>
+    </message>
+    <message>
+      <text>[i] The current output path is malaga/outputs...</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/alternatives.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/criteria.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/performanceTable.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/alternativesComparisons.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/weights.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/profileConfigs.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Exporting /malaga/inputs/ranking.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+  </methodMessages>
+</xmc:XMCDA>

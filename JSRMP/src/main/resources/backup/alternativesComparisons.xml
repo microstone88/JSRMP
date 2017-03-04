@@ -1,0 +1,37 @@
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<projectReference>
+		<comment></comment>
+	</projectReference>
+	
+	<alternativesComparisons>
+		<comparisonType>preference</comparisonType>
+		<pairs>
+			<pair>
+				<initial><alternativeID>a3</alternativeID></initial>
+				<terminal><alternativeID>a2</alternativeID></terminal>
+				<value><real>1.0</real></value>
+			</pair>
+			<pair>
+				<initial><alternativeID>a2</alternativeID></initial>
+				<terminal><alternativeID>a4</alternativeID></terminal>
+				<value><real>1.0</real></value>
+			</pair>
+			<pair>
+				<initial><alternativeID>a4</alternativeID></initial>
+				<terminal><alternativeID>a6</alternativeID></terminal>
+				<value><real>1.0</real></value>
+			</pair>
+			<pair>
+				<initial><alternativeID>a6</alternativeID></initial>
+				<terminal><alternativeID>a5</alternativeID></terminal>
+				<value><real>1.0</real></value>
+			</pair>
+			<pair>
+				<initial><alternativeID>a5</alternativeID></initial>
+				<terminal><alternativeID>a1</alternativeID></terminal>
+				<value><real>1.0</real></value>
+			</pair>
+		</pairs>
+	</alternativesComparisons>
+</xmcda:XMCDA>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+  <methodMessages>
+    <message>
+      <text>[i] Current resource path is src/main/resources/</text>
+    </message>
+    <message>
+      <text>[i] Current input path is /default/inputs</text>
+    </message>
+    <message>
+      <text>[i] Current output path is /default/outputs</text>
+    </message>
+    <message>
+      <text>[i] Loading /default/inputs/alternatives.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Loading /default/inputs/criteria.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Loading /default/inputs/performanceTable.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[i] Loading /default/inputs/alternativesComparisons.xml...</text>
+    </message>
+    <message>
+      <text>OK!</text>
+    </message>
+    <message>
+      <text>[Solving with CPLEX 12.5.1.0]</text>
+    </message>
+    <message>
+      <text>[i] Try with 1 reference point(s). 1 possible lexicographic order(s) exist(s).</text>
+    </message>
+    <message>
+      <text>[i] Add 4 weight variables...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add a new reference profile "p1"...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p1"-related variables "delta", "c" and "cw" for each alternative in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p1"-related slack variables for each pairwise comparison in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Transform the pairwise comparisons to linear constraints...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add objective function...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] 1/1 Try with the order [1] ...</text>
+    </message>
+    <message>
+      <text>[CPLEX] Solution status = Infeasible</text>
+    </message>
+    <message>
+      <text>[CPLEX] Objective func. = IloMaximize  : (1.0*s_min)</text>
+    </message>
+    <message>
+      <text>[i] Solution not found!</text>
+    </message>
+    <message>
+      <text>[i] Try with 2 reference point(s). 2 possible lexicographic order(s) exist(s).</text>
+    </message>
+    <message>
+      <text>[i] Add 4 weight variables...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add a new reference profile "p1"...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p1"-related variables "delta", "c" and "cw" for each alternative in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p1"-related slack variables for each pairwise comparison in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add a new reference profile "p2"...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p2"-related variables "delta", "c" and "cw" for each alternative in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add "p2"-related slack variables for each pairwise comparison in the reference set...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Transform the pairwise comparisons to linear constraints...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Setting dominance constraints to the reference points...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] Add objective function...</text>
+    </message>
+    <message>
+      <text>Done!</text>
+    </message>
+    <message>
+      <text>[i] 1/2 Try with the order [1, 2] ...</text>
+    </message>
+    <message>
+      <text>[CPLEX] Solution status = Optimal</text>
+    </message>
+    <message>
+      <text>[CPLEX] Objective func. = IloMaximize  : (1.0*s_min)</text>
+    </message>
+    <message>
+      <text>[CPLEX] Objective value = 0.0</text>
+    </message>
+    <message>
+      <text>[CPLEX] There are 1 feasible solutions in the solution pool.</text>
+    </message>
+  </methodMessages>
+</xmc:XMCDA>

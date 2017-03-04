@@ -1,0 +1,44 @@
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<projectReference>
+		<comment>The data is taken from the input file of IRIS demo which appears in the website of decision deck. </comment>
+	</projectReference>
+	<criteria>
+		<criterion id="g1" name="Price">
+			<scale>
+				<quantitative>
+					<preferenceDirection>min</preferenceDirection>
+					<minimum><real>60.0</real></minimum>
+					<maximum><real>80.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion id="g2" name="Comfort">
+			<scale>
+				<quantitative>
+					<preferenceDirection>max</preferenceDirection>
+					<minimum><real>2.0</real></minimum>
+					<maximum><real>4.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion id="g3" name="Distance">
+			<scale>
+				<quantitative>
+					<preferenceDirection>max</preferenceDirection>
+					<minimum><real>1.0</real></minimum>
+					<maximum><real>3.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+		<criterion id="g4" name="Location">
+			<scale>
+				<quantitative>
+					<preferenceDirection>max</preferenceDirection>
+					<minimum><real>0.0</real></minimum>
+					<maximum><real>1.0</real></maximum>
+				</quantitative>
+			</scale>
+		</criterion>
+	</criteria>
+</xmcda:XMCDA>

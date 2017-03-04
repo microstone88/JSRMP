@@ -1,0 +1,130 @@
+
+---------- General informations ----------
+Date	:2013-02-27 11:46:28
+Owner	:MICRO
+O.S.	:i386 LINUX platform (version 3.5.0-25-generic)
+Ref	:test_disa
+Exp.ID	:test_disa1361961988127
+
+---------- SUMMARY REPORT ----------
+
+
+ *** Files Loading *** 
+
+[i] There are 20 alternatives loaded in total.
+[Re] Alternatives:
+    Id: a001: Unknown
+    Id: a002: Unknown
+    Id: a003: Unknown
+    Id: a004: Unknown
+    Id: a005: Unknown
+    Id: a006: Unknown
+    Id: a007: Unknown
+    Id: a008: Unknown
+    Id: a009: Unknown
+    Id: a010: Unknown
+    Id: a011: Unknown
+    Id: a012: Unknown
+    Id: a013: Unknown
+    Id: a014: Unknown
+    Id: a015: Unknown
+    Id: a016: Unknown
+    Id: a017: Unknown
+    Id: a018: Unknown
+    Id: a019: Unknown
+    Id: a020: Unknown
+[i] The alternatives are evaluated on 4 criteria.
+[Re] Criteria:
+    Id: c1: Unknown(minimize Max = 100.0 Min = 0.0)
+    Id: c2: Unknown(minimize Max = 100.0 Min = 0.0)
+    Id: c3: Unknown(minimize Max = 100.0 Min = 0.0)
+    Id: c4: Unknown(maximize Max = 100.0 Min = 0.0)
+[i] There are 80 values in the performance matrix.
+[Re] Alternative performance table:
+    		c1	c2	c3	c4
+	a001	0.0	0.0	0.0	10.0
+	a002	60.0	30.0	60.0	40.0
+	a003	80.0	70.0	20.0	10.0
+	a004	0.0	50.0	10.0	40.0
+	a005	50.0	50.0	20.0	0.0
+	a006	30.0	80.0	40.0	80.0
+	a007	80.0	90.0	0.0	0.0
+	a008	70.0	20.0	80.0	50.0
+	a009	80.0	40.0	90.0	60.0
+	a010	80.0	60.0	20.0	80.0
+	a011	100.0	0.0	20.0	40.0
+	a012	60.0	10.0	30.0	80.0
+	a013	30.0	10.0	20.0	80.0
+	a014	10.0	50.0	10.0	40.0
+	a015	90.0	0.0	70.0	50.0
+	a016	50.0	60.0	40.0	40.0
+	a017	100.0	60.0	40.0	50.0
+	a018	10.0	50.0	40.0	30.0
+	a019	10.0	100.0	10.0	100.0
+	a020	20.0	50.0	60.0	60.0
+[i] The reference set consist of 10 pairwise comparisons and 14 different alternatives.
+[Re] Reference pairwise comparisons:
+    1: a004 > a003
+    2: a005 > a003
+    3: a006 > a015
+    4: a019 > a008
+    5: a009 > a017
+    6: a013 > a016
+    7: a014 > a003
+    8: a016 > a003
+    9: a010 > a017
+    10: a018 > a008
+[i] The weights of criteria have been normalized.
+[Re] Criteria weights:
+    c1:0.38    c2:0.29    c3:0.04    c4:0.29
+[i] There are 3 reference points involved in this model.
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	80.00	70.00	70.00	10.00
+    p2	50.00	50.00	60.00	30.00
+    p3	40.00	10.00	10.00	90.00
+[Re] Lexicographic order of reference points:[3, 2, 1]
+[Re] Global ranking list:
+    1: [Alternative [a001]]
+    2: [Alternative [a019]]
+    3: [Alternative [a013]]
+    4: [Alternative [a014], Alternative [a004]]
+    5: [Alternative [a018], Alternative [a020]]
+    6: [Alternative [a006]]
+    7: [Alternative [a012]]
+    8: [Alternative [a011]]
+    9: [Alternative [a015]]
+    10: [Alternative [a007]]
+    11: [Alternative [a005]]
+    12: [Alternative [a016]]
+    13: [Alternative [a002]]
+    14: [Alternative [a009], Alternative [a008]]
+    15: [Alternative [a010]]
+    16: [Alternative [a017]]
+    17: [Alternative [a003]]
+
+[i] 7/7 files have been loaded.
+[i] Loading completed!
+[i] The model has been successfully exported in src/main/resources/test_disa/outputs/models/model_1rp_0.lp.
+
+[CPLEX 12.5.0.0]
+[CPLEX] Solution status = Optimal
+[CPLEX] Objective func. = IloMaximize  : (1.0*s_min)
+[Help: See more details in the log.]
+[CPLEX] Objective value = 0.49
+[CPLEX] There are 1 feasible solutions in the solution pool.
+[i] The solution has been successfully exported in src/main/resources/test_disa/outputs/sols/solution_1rp_0.sol.
+[i] All feasible solutions have been successfully exported in src/main/resources/test_disa/outputs/sols/solution_1rp_0_pool.sol.
+[i] The problem has been solved with 1 reference points.
+
+ *** Aggregation Process *** 
+
+[Re] Criteria weights:
+    c1:0.49    c2:0.01    c3:0.01    c4:0.49
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	69.00	11.00	10.00	60.00
+[Re] Lexicographic order of reference points:[1]
+[i] Aggregation completed!
+
+---------- END OF OUTPUTS ----------

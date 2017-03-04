@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+  <criteriaValues>
+    <criterionValue>
+      <criterionID>c1</criterionID>
+      <value>
+        <real>0.49</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>c2</criterionID>
+      <value>
+        <real>0.16933334</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>c3</criterionID>
+      <value>
+        <real>0.17033334</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>c4</criterionID>
+      <value>
+        <real>0.17033334</real>
+      </value>
+    </criterionValue>
+  </criteriaValues>
+</xmc:XMCDA>

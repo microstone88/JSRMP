@@ -1,0 +1,409 @@
+
+---------- General informations ----------
+Date	:2013-06-13 16:56:16
+Owner	:MICRO
+O.S.	:x86_64 MAC OS X platform (version 10.8.4)
+Ref	:malaga
+Exp.ID	:malaga1371135376152
+
+---------- SUMMARY REPORT ----------
+
+
+ *** Files Loading *** 
+
+[i] There are 100 alternatives loaded in total.
+[Re] Alternatives:
+    Id: a001: Unknown
+    Id: a002: Unknown
+    Id: a003: Unknown
+    Id: a004: Unknown
+    Id: a005: Unknown
+    Id: a006: Unknown
+    Id: a007: Unknown
+    Id: a008: Unknown
+    Id: a009: Unknown
+    Id: a010: Unknown
+    Id: a011: Unknown
+    Id: a012: Unknown
+    Id: a013: Unknown
+    Id: a014: Unknown
+    Id: a015: Unknown
+    Id: a016: Unknown
+    Id: a017: Unknown
+    Id: a018: Unknown
+    Id: a019: Unknown
+    Id: a020: Unknown
+    Id: a021: Unknown
+    Id: a022: Unknown
+    Id: a023: Unknown
+    Id: a024: Unknown
+    Id: a025: Unknown
+    Id: a026: Unknown
+    Id: a027: Unknown
+    Id: a028: Unknown
+    Id: a029: Unknown
+    Id: a030: Unknown
+    Id: a031: Unknown
+    Id: a032: Unknown
+    Id: a033: Unknown
+    Id: a034: Unknown
+    Id: a035: Unknown
+    Id: a036: Unknown
+    Id: a037: Unknown
+    Id: a038: Unknown
+    Id: a039: Unknown
+    Id: a040: Unknown
+    Id: a041: Unknown
+    Id: a042: Unknown
+    Id: a043: Unknown
+    Id: a044: Unknown
+    Id: a045: Unknown
+    Id: a046: Unknown
+    Id: a047: Unknown
+    Id: a048: Unknown
+    Id: a049: Unknown
+    Id: a050: Unknown
+    Id: a051: Unknown
+    Id: a052: Unknown
+    Id: a053: Unknown
+    Id: a054: Unknown
+    Id: a055: Unknown
+    Id: a056: Unknown
+    Id: a057: Unknown
+    Id: a058: Unknown
+    Id: a059: Unknown
+    Id: a060: Unknown
+    Id: a061: Unknown
+    Id: a062: Unknown
+    Id: a063: Unknown
+    Id: a064: Unknown
+    Id: a065: Unknown
+    Id: a066: Unknown
+    Id: a067: Unknown
+    Id: a068: Unknown
+    Id: a069: Unknown
+    Id: a070: Unknown
+    Id: a071: Unknown
+    Id: a072: Unknown
+    Id: a073: Unknown
+    Id: a074: Unknown
+    Id: a075: Unknown
+    Id: a076: Unknown
+    Id: a077: Unknown
+    Id: a078: Unknown
+    Id: a079: Unknown
+    Id: a080: Unknown
+    Id: a081: Unknown
+    Id: a082: Unknown
+    Id: a083: Unknown
+    Id: a084: Unknown
+    Id: a085: Unknown
+    Id: a086: Unknown
+    Id: a087: Unknown
+    Id: a088: Unknown
+    Id: a089: Unknown
+    Id: a090: Unknown
+    Id: a091: Unknown
+    Id: a092: Unknown
+    Id: a093: Unknown
+    Id: a094: Unknown
+    Id: a095: Unknown
+    Id: a096: Unknown
+    Id: a097: Unknown
+    Id: a098: Unknown
+    Id: a099: Unknown
+    Id: a100: Unknown
+[i] The alternatives are evaluated on 4 criteria.
+[Re] Criteria:
+    Id: c1: Unknown(maximize Max = 100.0 Min = 0.0)
+    Id: c2: Unknown(maximize Max = 100.0 Min = 0.0)
+    Id: c3: Unknown(minimize Max = 100.0 Min = 0.0)
+    Id: c4: Unknown(minimize Max = 100.0 Min = 0.0)
+[i] There are 400 values in the performance matrix.
+[Re] Alternative performance table:
+    		c1	c2	c3	c4
+	a001	60.0	50.0	90.0	100.0
+	a002	20.0	100.0	70.0	50.0
+	a003	20.0	0.0	80.0	80.0
+	a004	20.0	100.0	0.0	90.0
+	a005	0.0	0.0	90.0	50.0
+	a006	80.0	40.0	40.0	100.0
+	a007	40.0	30.0	70.0	30.0
+	a008	70.0	0.0	20.0	0.0
+	a009	40.0	30.0	60.0	90.0
+	a010	70.0	100.0	30.0	20.0
+	a011	20.0	10.0	0.0	60.0
+	a012	90.0	40.0	60.0	50.0
+	a013	10.0	70.0	20.0	0.0
+	a014	50.0	0.0	10.0	100.0
+	a015	40.0	60.0	20.0	40.0
+	a016	40.0	70.0	50.0	100.0
+	a017	50.0	60.0	90.0	90.0
+	a018	90.0	90.0	40.0	20.0
+	a019	20.0	60.0	100.0	0.0
+	a020	60.0	90.0	30.0	10.0
+	a021	80.0	100.0	70.0	40.0
+	a022	100.0	40.0	40.0	100.0
+	a023	80.0	50.0	100.0	30.0
+	a024	50.0	60.0	20.0	10.0
+	a025	90.0	60.0	40.0	60.0
+	a026	0.0	40.0	80.0	20.0
+	a027	100.0	0.0	70.0	40.0
+	a028	30.0	80.0	90.0	80.0
+	a029	70.0	90.0	70.0	70.0
+	a030	10.0	20.0	50.0	80.0
+	a031	100.0	0.0	80.0	100.0
+	a032	10.0	80.0	100.0	80.0
+	a033	0.0	20.0	50.0	30.0
+	a034	50.0	0.0	50.0	10.0
+	a035	80.0	70.0	50.0	90.0
+	a036	90.0	60.0	30.0	70.0
+	a037	60.0	100.0	100.0	70.0
+	a038	0.0	20.0	20.0	100.0
+	a039	20.0	20.0	60.0	40.0
+	a040	40.0	0.0	70.0	70.0
+	a041	40.0	0.0	100.0	90.0
+	a042	60.0	70.0	40.0	90.0
+	a043	30.0	60.0	0.0	80.0
+	a044	0.0	40.0	100.0	70.0
+	a045	40.0	90.0	10.0	90.0
+	a046	10.0	0.0	40.0	30.0
+	a047	40.0	40.0	50.0	60.0
+	a048	30.0	30.0	30.0	40.0
+	a049	80.0	60.0	70.0	50.0
+	a050	10.0	10.0	0.0	30.0
+	a051	0.0	90.0	80.0	0.0
+	a052	80.0	40.0	10.0	40.0
+	a053	30.0	10.0	70.0	10.0
+	a054	80.0	100.0	50.0	80.0
+	a055	80.0	60.0	80.0	20.0
+	a056	40.0	0.0	50.0	30.0
+	a057	90.0	20.0	100.0	10.0
+	a058	70.0	0.0	10.0	100.0
+	a059	50.0	90.0	60.0	60.0
+	a060	50.0	0.0	20.0	80.0
+	a061	10.0	0.0	40.0	70.0
+	a062	80.0	60.0	90.0	40.0
+	a063	20.0	70.0	50.0	40.0
+	a064	80.0	30.0	100.0	0.0
+	a065	30.0	60.0	70.0	80.0
+	a066	80.0	100.0	70.0	60.0
+	a067	0.0	40.0	50.0	40.0
+	a068	90.0	40.0	0.0	30.0
+	a069	60.0	30.0	60.0	50.0
+	a070	50.0	10.0	100.0	30.0
+	a071	50.0	60.0	100.0	80.0
+	a072	0.0	30.0	60.0	90.0
+	a073	90.0	0.0	70.0	0.0
+	a074	70.0	90.0	40.0	80.0
+	a075	0.0	90.0	90.0	70.0
+	a076	0.0	30.0	80.0	60.0
+	a077	10.0	50.0	40.0	40.0
+	a078	100.0	30.0	50.0	20.0
+	a079	0.0	80.0	80.0	100.0
+	a080	60.0	100.0	50.0	10.0
+	a081	0.0	20.0	10.0	40.0
+	a082	60.0	20.0	100.0	90.0
+	a083	60.0	100.0	100.0	70.0
+	a084	90.0	20.0	50.0	60.0
+	a085	80.0	70.0	100.0	20.0
+	a086	10.0	60.0	30.0	70.0
+	a087	30.0	80.0	50.0	60.0
+	a088	90.0	90.0	70.0	70.0
+	a089	40.0	10.0	0.0	10.0
+	a090	70.0	70.0	20.0	70.0
+	a091	20.0	30.0	10.0	70.0
+	a092	10.0	40.0	50.0	90.0
+	a093	20.0	70.0	0.0	40.0
+	a094	0.0	10.0	40.0	70.0
+	a095	70.0	100.0	80.0	30.0
+	a096	70.0	100.0	40.0	30.0
+	a097	50.0	10.0	100.0	0.0
+	a098	0.0	50.0	80.0	90.0
+	a099	80.0	80.0	30.0	80.0
+	a100	70.0	50.0	10.0	70.0
+[i] The reference set consist of 20 pairwise comparisons and 34 different alternatives.
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a035 > a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+[i] The weights of criteria have been normalized.
+[Re] Criteria weights:
+    c1:0.18    c2:0.03    c3:0.37    c4:0.43
+[i] There are 3 reference points involved in this model.
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	10.00	10.00	70.00	70.00
+    p2	40.00	20.00	60.00	50.00
+    p3	90.00	60.00	0.00	30.00
+[Re] Lexicographic order of reference points:[2, 3, 1]
+[Re] Global ranking list:
+    1: [Alternative [a068]]
+    2: [Alternative [a018]]
+    3: [Alternative [a078]]
+    4: [Alternative [a080], Alternative [a020], Alternative [a010], Alternative [a024], Alternative [a096]]
+    5: [Alternative [a012]]
+    6: [Alternative [a015]]
+    7: [Alternative [a069], Alternative [a052]]
+    8: [Alternative [a089]]
+    9: [Alternative [a008], Alternative [a056], Alternative [a034]]
+    10: [Alternative [a013]]
+    11: [Alternative [a033]]
+    12: [Alternative [a093]]
+    13: [Alternative [a063]]
+    14: [Alternative [a077], Alternative [a048], Alternative [a039]]
+    15: [Alternative [a081], Alternative [a067]]
+    16: [Alternative [a050]]
+    17: [Alternative [a046]]
+    18: [Alternative [a057]]
+    19: [Alternative [a055], Alternative [a095], Alternative [a085]]
+    20: [Alternative [a007]]
+    21: [Alternative [a023], Alternative [a064]]
+    22: [Alternative [a021], Alternative [a049]]
+    23: [Alternative [a062]]
+    24: [Alternative [a073]]
+    25: [Alternative [a070], Alternative [a097]]
+    26: [Alternative [a027]]
+    27: [Alternative [a036], Alternative [a025]]
+    28: [Alternative [a084]]
+    29: [Alternative [a022]]
+    30: [Alternative [a090], Alternative [a059]]
+    31: [Alternative [a054], Alternative [a045], Alternative [a042], Alternative [a016], Alternative [a099], Alternative [a035], Alternative [a074]]
+    32: [Alternative [a100], Alternative [a047]]
+    33: [Alternative [a009], Alternative [a006]]
+    34: [Alternative [a014], Alternative [a060], Alternative [a058]]
+    35: [Alternative [a019]]
+    36: [Alternative [a051]]
+    37: [Alternative [a026]]
+    38: [Alternative [a002]]
+    39: [Alternative [a053]]
+    40: [Alternative [a005]]
+    41: [Alternative [a043], Alternative [a004]]
+    42: [Alternative [a086], Alternative [a087]]
+    43: [Alternative [a091]]
+    44: [Alternative [a092], Alternative [a030]]
+    45: [Alternative [a072], Alternative [a038]]
+    46: [Alternative [a011]]
+    47: [Alternative [a061]]
+    48: [Alternative [a094]]
+    49: [Alternative [a088]]
+    50: [Alternative [a066], Alternative [a029]]
+    51: [Alternative [a037], Alternative [a083]]
+    52: [Alternative [a017], Alternative [a071]]
+    53: [Alternative [a001], Alternative [a082]]
+    54: [Alternative [a031]]
+    55: [Alternative [a040]]
+    56: [Alternative [a041]]
+    57: [Alternative [a065]]
+    58: [Alternative [a075]]
+    59: [Alternative [a032], Alternative [a028]]
+    60: [Alternative [a079]]
+    61: [Alternative [a044], Alternative [a076]]
+    62: [Alternative [a098]]
+    63: [Alternative [a003]]
+
+[i] 7/7 files have been loaded.
+[i] Loading completed!
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a035 > a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+[i] The comparison number 10 has/have been perturbed.
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a086 > a035
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+
+[S-RMP Solver Ver.JINYAN,2013]
+[i] The inferred model is 95.00% compatible with the input.(Estimated >=90.0%)
+[i] The problem has been solved with 1 reference points.
+[Help: See more details in the log.]
+
+[Aggregation Process]
+[i] Aggregation completed!
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a035 ~ a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+[i] The ratio of representables is 100.00% (1 indiff.).
+
+ *** Files Exporting *** 
+
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	10.00	41.00	59.00	40.00
+[Re] Lexicographic order of reference points:[1]
+[Re] Criteria weights:
+    c1:0.49    c2:0.01    c3:0.01    c4:0.49
+[i] 2/2 files have been exported.
+[i] Exporting completed!
+
+---------- END OF OUTPUTS ----------

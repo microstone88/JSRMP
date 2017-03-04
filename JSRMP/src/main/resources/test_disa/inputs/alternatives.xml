@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+  <alternatives>
+    <alternative id="a001" name="Unknown"/>
+    <alternative id="a002" name="Unknown"/>
+    <alternative id="a003" name="Unknown"/>
+    <alternative id="a004" name="Unknown"/>
+    <alternative id="a005" name="Unknown"/>
+    <alternative id="a006" name="Unknown"/>
+    <alternative id="a007" name="Unknown"/>
+    <alternative id="a008" name="Unknown"/>
+    <alternative id="a009" name="Unknown"/>
+    <alternative id="a010" name="Unknown"/>
+    <alternative id="a011" name="Unknown"/>
+    <alternative id="a012" name="Unknown"/>
+    <alternative id="a013" name="Unknown"/>
+    <alternative id="a014" name="Unknown"/>
+    <alternative id="a015" name="Unknown"/>
+    <alternative id="a016" name="Unknown"/>
+    <alternative id="a017" name="Unknown"/>
+    <alternative id="a018" name="Unknown"/>
+    <alternative id="a019" name="Unknown"/>
+    <alternative id="a020" name="Unknown"/>
+  </alternatives>
+</xmc:XMCDA>

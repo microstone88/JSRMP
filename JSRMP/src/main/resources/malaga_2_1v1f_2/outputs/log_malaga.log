@@ -1,0 +1,1665 @@
+
+---------- General informations ----------
+Date	:2013-06-14 09:35:59
+Owner	:MICRO
+O.S.	:x86_64 MAC OS X platform (version 10.8.4)
+Ref	:malaga
+Exp.ID	:malaga1371195358999
+
+---------- LOG INFORMATION ----------
+
+[i] The current input path is malaga/inputs...
+[i] The current output path is malaga/outputs...
+
+ *** Files Loading *** 
+
+[i] Loading malaga/inputs/alternatives.xml...OK!
+[i] alternatives.xml has been successfully loaded!
+[i] There are 100 alternatives loaded in total.
+[Re] Alternatives:
+    Id: a001: Unknown
+    Id: a002: Unknown
+    Id: a003: Unknown
+    Id: a004: Unknown
+    Id: a005: Unknown
+    Id: a006: Unknown
+    Id: a007: Unknown
+    Id: a008: Unknown
+    Id: a009: Unknown
+    Id: a010: Unknown
+    Id: a011: Unknown
+    Id: a012: Unknown
+    Id: a013: Unknown
+    Id: a014: Unknown
+    Id: a015: Unknown
+    Id: a016: Unknown
+    Id: a017: Unknown
+    Id: a018: Unknown
+    Id: a019: Unknown
+    Id: a020: Unknown
+    Id: a021: Unknown
+    Id: a022: Unknown
+    Id: a023: Unknown
+    Id: a024: Unknown
+    Id: a025: Unknown
+    Id: a026: Unknown
+    Id: a027: Unknown
+    Id: a028: Unknown
+    Id: a029: Unknown
+    Id: a030: Unknown
+    Id: a031: Unknown
+    Id: a032: Unknown
+    Id: a033: Unknown
+    Id: a034: Unknown
+    Id: a035: Unknown
+    Id: a036: Unknown
+    Id: a037: Unknown
+    Id: a038: Unknown
+    Id: a039: Unknown
+    Id: a040: Unknown
+    Id: a041: Unknown
+    Id: a042: Unknown
+    Id: a043: Unknown
+    Id: a044: Unknown
+    Id: a045: Unknown
+    Id: a046: Unknown
+    Id: a047: Unknown
+    Id: a048: Unknown
+    Id: a049: Unknown
+    Id: a050: Unknown
+    Id: a051: Unknown
+    Id: a052: Unknown
+    Id: a053: Unknown
+    Id: a054: Unknown
+    Id: a055: Unknown
+    Id: a056: Unknown
+    Id: a057: Unknown
+    Id: a058: Unknown
+    Id: a059: Unknown
+    Id: a060: Unknown
+    Id: a061: Unknown
+    Id: a062: Unknown
+    Id: a063: Unknown
+    Id: a064: Unknown
+    Id: a065: Unknown
+    Id: a066: Unknown
+    Id: a067: Unknown
+    Id: a068: Unknown
+    Id: a069: Unknown
+    Id: a070: Unknown
+    Id: a071: Unknown
+    Id: a072: Unknown
+    Id: a073: Unknown
+    Id: a074: Unknown
+    Id: a075: Unknown
+    Id: a076: Unknown
+    Id: a077: Unknown
+    Id: a078: Unknown
+    Id: a079: Unknown
+    Id: a080: Unknown
+    Id: a081: Unknown
+    Id: a082: Unknown
+    Id: a083: Unknown
+    Id: a084: Unknown
+    Id: a085: Unknown
+    Id: a086: Unknown
+    Id: a087: Unknown
+    Id: a088: Unknown
+    Id: a089: Unknown
+    Id: a090: Unknown
+    Id: a091: Unknown
+    Id: a092: Unknown
+    Id: a093: Unknown
+    Id: a094: Unknown
+    Id: a095: Unknown
+    Id: a096: Unknown
+    Id: a097: Unknown
+    Id: a098: Unknown
+    Id: a099: Unknown
+    Id: a100: Unknown
+[i] Loading malaga/inputs/criteria.xml...OK!
+[i] criteria.xml has been successfully loaded!
+[i] The alternatives are evaluated on 4 criteria.
+[Re] Criteria:
+    Id: c1: Unknown(maximize Max = 100.0 Min = 0.0)
+    Id: c2: Unknown(maximize Max = 100.0 Min = 0.0)
+    Id: c3: Unknown(minimize Max = 100.0 Min = 0.0)
+    Id: c4: Unknown(minimize Max = 100.0 Min = 0.0)
+[i] Loading malaga/inputs/performances.xml...OK!
+[i] performances.xml has been successfully loaded!
+[i] There are 400 values in the performance matrix.
+[Re] Alternative performance table:
+    		c1	c2	c3	c4
+	a001	60.0	50.0	90.0	100.0
+	a002	20.0	100.0	70.0	50.0
+	a003	20.0	0.0	80.0	80.0
+	a004	20.0	100.0	0.0	90.0
+	a005	0.0	0.0	90.0	50.0
+	a006	80.0	40.0	40.0	100.0
+	a007	40.0	30.0	70.0	30.0
+	a008	70.0	0.0	20.0	0.0
+	a009	40.0	30.0	60.0	90.0
+	a010	70.0	100.0	30.0	20.0
+	a011	20.0	10.0	0.0	60.0
+	a012	90.0	40.0	60.0	50.0
+	a013	10.0	70.0	20.0	0.0
+	a014	50.0	0.0	10.0	100.0
+	a015	40.0	60.0	20.0	40.0
+	a016	40.0	70.0	50.0	100.0
+	a017	50.0	60.0	90.0	90.0
+	a018	90.0	90.0	40.0	20.0
+	a019	20.0	60.0	100.0	0.0
+	a020	60.0	90.0	30.0	10.0
+	a021	80.0	100.0	70.0	40.0
+	a022	100.0	40.0	40.0	100.0
+	a023	80.0	50.0	100.0	30.0
+	a024	50.0	60.0	20.0	10.0
+	a025	90.0	60.0	40.0	60.0
+	a026	0.0	40.0	80.0	20.0
+	a027	100.0	0.0	70.0	40.0
+	a028	30.0	80.0	90.0	80.0
+	a029	70.0	90.0	70.0	70.0
+	a030	10.0	20.0	50.0	80.0
+	a031	100.0	0.0	80.0	100.0
+	a032	10.0	80.0	100.0	80.0
+	a033	0.0	20.0	50.0	30.0
+	a034	50.0	0.0	50.0	10.0
+	a035	80.0	70.0	50.0	90.0
+	a036	90.0	60.0	30.0	70.0
+	a037	60.0	100.0	100.0	70.0
+	a038	0.0	20.0	20.0	100.0
+	a039	20.0	20.0	60.0	40.0
+	a040	40.0	0.0	70.0	70.0
+	a041	40.0	0.0	100.0	90.0
+	a042	60.0	70.0	40.0	90.0
+	a043	30.0	60.0	0.0	80.0
+	a044	0.0	40.0	100.0	70.0
+	a045	40.0	90.0	10.0	90.0
+	a046	10.0	0.0	40.0	30.0
+	a047	40.0	40.0	50.0	60.0
+	a048	30.0	30.0	30.0	40.0
+	a049	80.0	60.0	70.0	50.0
+	a050	10.0	10.0	0.0	30.0
+	a051	0.0	90.0	80.0	0.0
+	a052	80.0	40.0	10.0	40.0
+	a053	30.0	10.0	70.0	10.0
+	a054	80.0	100.0	50.0	80.0
+	a055	80.0	60.0	80.0	20.0
+	a056	40.0	0.0	50.0	30.0
+	a057	90.0	20.0	100.0	10.0
+	a058	70.0	0.0	10.0	100.0
+	a059	50.0	90.0	60.0	60.0
+	a060	50.0	0.0	20.0	80.0
+	a061	10.0	0.0	40.0	70.0
+	a062	80.0	60.0	90.0	40.0
+	a063	20.0	70.0	50.0	40.0
+	a064	80.0	30.0	100.0	0.0
+	a065	30.0	60.0	70.0	80.0
+	a066	80.0	100.0	70.0	60.0
+	a067	0.0	40.0	50.0	40.0
+	a068	90.0	40.0	0.0	30.0
+	a069	60.0	30.0	60.0	50.0
+	a070	50.0	10.0	100.0	30.0
+	a071	50.0	60.0	100.0	80.0
+	a072	0.0	30.0	60.0	90.0
+	a073	90.0	0.0	70.0	0.0
+	a074	70.0	90.0	40.0	80.0
+	a075	0.0	90.0	90.0	70.0
+	a076	0.0	30.0	80.0	60.0
+	a077	10.0	50.0	40.0	40.0
+	a078	100.0	30.0	50.0	20.0
+	a079	0.0	80.0	80.0	100.0
+	a080	60.0	100.0	50.0	10.0
+	a081	0.0	20.0	10.0	40.0
+	a082	60.0	20.0	100.0	90.0
+	a083	60.0	100.0	100.0	70.0
+	a084	90.0	20.0	50.0	60.0
+	a085	80.0	70.0	100.0	20.0
+	a086	10.0	60.0	30.0	70.0
+	a087	30.0	80.0	50.0	60.0
+	a088	90.0	90.0	70.0	70.0
+	a089	40.0	10.0	0.0	10.0
+	a090	70.0	70.0	20.0	70.0
+	a091	20.0	30.0	10.0	70.0
+	a092	10.0	40.0	50.0	90.0
+	a093	20.0	70.0	0.0	40.0
+	a094	0.0	10.0	40.0	70.0
+	a095	70.0	100.0	80.0	30.0
+	a096	70.0	100.0	40.0	30.0
+	a097	50.0	10.0	100.0	0.0
+	a098	0.0	50.0	80.0	90.0
+	a099	80.0	80.0	30.0	80.0
+	a100	70.0	50.0	10.0	70.0
+[i] Loading malaga/inputs/alternativesComparisons.xml...OK!
+[i] alternativesComparisons.xml has been successfully loaded!
+[i] The reference set consist of 20 pairwise comparisons and 34 different alternatives.
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a035 > a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+[i] Loading malaga/inputs/weights.xml...OK!
+[i] weights.xml has been successfully loaded!
+[i] The weights of criteria have been normalized.
+[Re] Criteria weights:
+    c1:0.18    c2:0.03    c3:0.37    c4:0.43
+[i] Loading malaga/inputs/profileConfigs.xml...OK!
+[i] profileConfigs.xml has been successfully loaded!
+[i] There are 3 reference points involved in this model.
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	10.00	10.00	70.00	70.00
+    p2	40.00	20.00	60.00	50.00
+    p3	90.00	60.00	0.00	30.00
+[Re] Lexicographic order of reference points:[2, 3, 1]
+[i] Loading malaga/inputs/ranking.xml...OK!
+[i] ranking.xml has been successfully loaded!
+[Re] Global ranking list:
+    1: [Alternative [a068]]
+    2: [Alternative [a018]]
+    3: [Alternative [a078]]
+    4: [Alternative [a080], Alternative [a020], Alternative [a010], Alternative [a024], Alternative [a096]]
+    5: [Alternative [a012]]
+    6: [Alternative [a015]]
+    7: [Alternative [a069], Alternative [a052]]
+    8: [Alternative [a089]]
+    9: [Alternative [a008], Alternative [a056], Alternative [a034]]
+    10: [Alternative [a013]]
+    11: [Alternative [a033]]
+    12: [Alternative [a093]]
+    13: [Alternative [a063]]
+    14: [Alternative [a077], Alternative [a048], Alternative [a039]]
+    15: [Alternative [a081], Alternative [a067]]
+    16: [Alternative [a050]]
+    17: [Alternative [a046]]
+    18: [Alternative [a057]]
+    19: [Alternative [a055], Alternative [a095], Alternative [a085]]
+    20: [Alternative [a007]]
+    21: [Alternative [a023], Alternative [a064]]
+    22: [Alternative [a021], Alternative [a049]]
+    23: [Alternative [a062]]
+    24: [Alternative [a073]]
+    25: [Alternative [a070], Alternative [a097]]
+    26: [Alternative [a027]]
+    27: [Alternative [a036], Alternative [a025]]
+    28: [Alternative [a084]]
+    29: [Alternative [a022]]
+    30: [Alternative [a090], Alternative [a059]]
+    31: [Alternative [a054], Alternative [a045], Alternative [a042], Alternative [a016], Alternative [a099], Alternative [a035], Alternative [a074]]
+    32: [Alternative [a100], Alternative [a047]]
+    33: [Alternative [a009], Alternative [a006]]
+    34: [Alternative [a014], Alternative [a060], Alternative [a058]]
+    35: [Alternative [a019]]
+    36: [Alternative [a051]]
+    37: [Alternative [a026]]
+    38: [Alternative [a002]]
+    39: [Alternative [a053]]
+    40: [Alternative [a005]]
+    41: [Alternative [a043], Alternative [a004]]
+    42: [Alternative [a086], Alternative [a087]]
+    43: [Alternative [a091]]
+    44: [Alternative [a092], Alternative [a030]]
+    45: [Alternative [a072], Alternative [a038]]
+    46: [Alternative [a011]]
+    47: [Alternative [a061]]
+    48: [Alternative [a094]]
+    49: [Alternative [a088]]
+    50: [Alternative [a066], Alternative [a029]]
+    51: [Alternative [a037], Alternative [a083]]
+    52: [Alternative [a017], Alternative [a071]]
+    53: [Alternative [a001], Alternative [a082]]
+    54: [Alternative [a031]]
+    55: [Alternative [a040]]
+    56: [Alternative [a041]]
+    57: [Alternative [a065]]
+    58: [Alternative [a075]]
+    59: [Alternative [a032], Alternative [a028]]
+    60: [Alternative [a079]]
+    61: [Alternative [a044], Alternative [a076]]
+    62: [Alternative [a098]]
+    63: [Alternative [a003]]
+
+[i] 7/7 files have been loaded.
+[i] Loading completed!
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 > a061
+    10: a035 > a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a085 > a090
+    20: a095 > a016
+[i] The comparison number 9,19 has/have been perturbed.
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a061 > a035
+    10: a035 > a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a090 > a085
+    20: a095 > a016
+
+[S-RMP Solver Ver.JINYAN,2013]
+[i] Try with 1 reference point(s). 1 possible lexicographic order(s) exist(s).
+[i] Add 4 weight variables... Done!
+[i] Add a new reference profile "p1"... Done!
+[i] Add "p1"-related variables "delta", "c" and "cw" for each alternative in the reference set... Done!
+[i] Add "p1"-related slack variables for each pairwise comparison in the reference set... Done!
+[i] Transform the pairwise comparisons to linear constraints... Done!
+[i] Add binary variables gamma... Done!
+[i] Add objective function... Done!
+[i] 1/1 Try with the order [1] ...
+[i] The problem has been exported in src/main/resources/malaga/outputs/models/model_1rp_0.lp.
+
+[CPLEX Ver.12.5.0.0]
+Tried aggregator 2 times.
+MIP Presolve eliminated 197 rows and 51 columns.
+MIP Presolve modified 995 coefficients.
+Aggregator did 108 substitutions.
+Reduced MIP has 727 rows, 317 columns, and 1708 nonzeros.
+Reduced MIP has 146 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.23 ticks)
+Probing time = 0.00 sec. (0.55 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 178 rows and 89 columns.
+MIP Presolve modified 252 coefficients.
+Reduced MIP has 549 rows, 228 columns, and 1352 nonzeros.
+Reduced MIP has 57 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.14 ticks)
+Probing added 282 nonzeros.
+Probing time = 0.00 sec. (0.76 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 153.
+MIP emphasis: best bound.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.01 sec. (5.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       20.4930    36                     20.4930      264         
+      0     0       20.2734    26                    Cuts: 84      368         
+*     0+    0                           15.0000       20.2734      509   35.16%
+      0     0       20.1246    31       15.0000      Cuts: 69      509   20.00%
+      0     0       20.0025    28       15.0000      Cuts: 34      688   20.00%
+      0     0       18.0000    24       15.0000      Cuts: 46      756   20.00%
+      0     0        cutoff             15.0000       15.0000      778    0.00%
+Elapsed time = 0.29 sec. (219.31 ticks, tree = 0.00 MB, solutions = 1)
+
+Clique cuts applied:  23
+Cover cuts applied:  4
+Implied bound cuts applied:  28
+Mixed integer rounding cuts applied:  28
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    0.27 sec. (214.34 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.27 sec. (214.34 ticks)
+[CPLEX] Solution status = Optimal
+[CPLEX] Objective func. = IloMaximize  : (1.0*representable + 1.0*s_min)
+[CPLEX] Objective value = 15.0
+[i] The inferred model is 75.00% compatible with the input.(Estimated >=90.0%)
+[i] Solution not acceptable!
+-------------------------------------
+[Waring] Clear the model... Done!
+-------------------------------------
+[i] Restart solving the problem...
+[i] Try with 2 reference point(s). 2 possible lexicographic order(s) exist(s).
+[i] Add 4 weight variables... Done!
+[i] Add a new reference profile "p1"... Done!
+[i] Add "p1"-related variables "delta", "c" and "cw" for each alternative in the reference set... Done!
+[i] Add "p1"-related slack variables for each pairwise comparison in the reference set... Done!
+[i] Add a new reference profile "p2"... Done!
+[i] Add "p2"-related variables "delta", "c" and "cw" for each alternative in the reference set... Done!
+[i] Add "p2"-related slack variables for each pairwise comparison in the reference set... Done!
+[i] Transform the pairwise comparisons to linear constraints... Done!
+[i] Add binary variables gamma... Done!
+[i] Setting dominance constraints to the reference points... Done!
+[i] Add objective function... Done!
+[i] 1/2 Try with the order [1, 2] ...
+[i] The problem has been exported in src/main/resources/malaga/outputs/models/model_2rp_0.lp.
+
+[CPLEX Ver.12.5.0.0]
+Tried aggregator 2 times.
+MIP Presolve eliminated 393 rows and 81 columns.
+MIP Presolve modified 1965 coefficients.
+Aggregator did 138 substitutions.
+Reduced MIP has 1495 rows, 667 columns, and 3532 nonzeros.
+Reduced MIP has 312 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (4.19 ticks)
+Probing time = 0.01 sec. (1.81 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 356 rows and 178 columns.
+MIP Presolve modified 504 coefficients.
+Aggregator did 20 substitutions.
+Reduced MIP has 1119 rows, 469 columns, and 2780 nonzeros.
+Reduced MIP has 114 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.02 ticks)
+Probing added 550 nonzeros.
+Probing time = 0.00 sec. (2.23 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Clique table members: 496.
+MIP emphasis: best bound.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.01 sec. (10.49 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       20.4930    52                     20.4930      378         
+      0     0       20.2437    36                    Cuts: 90      538         
+*     0+    0                           14.0000       20.2437      641   44.60%
+      0     0       20.1835    33       14.0000     Cuts: 106      641   44.17%
+      0     0       20.1200    32       14.0000      Cuts: 35      742   43.71%
+*     0+    0                           16.0000       20.1200      792   25.75%
+      0     0       20.0000    23       16.0000      Cuts: 12      792   25.00%
+      0     0       20.0000    41       16.0000      Cuts: 22      873   25.00%
+      0     0       20.0000    12       16.0000    Cliques: 3      876   25.00%
+      0     0       20.0000    21       16.0000       Cuts: 3      926   25.00%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve modified 5 coefficients.
+Reduced MIP has 1119 rows, 469 columns, and 3330 nonzeros.
+Reduced MIP has 114 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.29 ticks)
+Probing time = 0.00 sec. (0.72 ticks)
+Tried aggregator 1 time.
+Presolve time = 0.00 sec. (1.28 ticks)
+Represolve time = 0.01 sec. (4.18 ticks)
+Probing time = 0.00 sec. (1.46 ticks)
+Clique table members: 496.
+MIP emphasis: best bound.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.01 sec. (6.76 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           16.0000       20.0000     1203   25.00%
+      0     0       20.0000    38       16.0000       20.0000     1203   25.00%
+      0     0       20.0000    17       16.0000   Flowcuts: 2     1216   25.00%
+      0     0       20.0000    16       16.0000       Cuts: 3     1295   25.00%
+      0     0       20.0000    19       16.0000     Covers: 8     1330   25.00%
+*     0+    0                           17.0000       20.0000     1330   17.65%
+      0     2       20.0000    35       17.0000       20.0000     1330   17.65%
+Elapsed time = 0.86 sec. (683.36 ticks, tree = 0.01 MB, solutions = 3)
+    274   103       20.0000    41       17.0000       20.0000    20578   17.65%
+    495   215        cutoff             17.0000       20.0000    43560   17.65%
+*   676   152      integral     0       18.0000       20.0000    56348   11.11%
+
+Clique cuts applied:  12
+Cover cuts applied:  91
+Implied bound cuts applied:  128
+Flow cuts applied:  142
+Mixed integer rounding cuts applied:  273
+Zero-half cuts applied:  10
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.83 sec. (671.44 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    1.18 sec. (612.17 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.01 sec. (1283.62 ticks)
+[CPLEX] Solution status = Optimal
+[CPLEX] Objective func. = IloMaximize  : (1.0*representable + 1.0*s_min)
+[CPLEX] Objective value = 18.0
+[i] The inferred model is 90.00% compatible with the input.(Estimated >=90.0%)
+[CPLEX] There are 4 feasible solutions in the solution pool.
+[i] The solution has been exported in src/main/resources/malaga/outputs/sols/solution_2rp_0.sol.
+[i] All feasible solutions have been exported in src/main/resources/malaga/outputs/sols/solution_2rp_0_pool.sol.
+[i] The problem has been solved with 2 reference points.
+[i] Gamma status: 
+	(1,1)	(2,1)	(3,1)	(4,1)	(5,1)
+	(6,1)	(7,1)	(8,1)	(9,0)	(10,0)
+	(11,1)	(12,1)	(13,1)	(14,1)	(15,1)
+	(16,1)	(17,1)	(18,1)	(19,1)	(20,1)
+[i] Slack status: 
+	(1,0.1693)	(2,0.1713)	(3,0.0010)	(4,0.1703)	(5,0.1703)
+	(6,0.5110)	(7,0.1703)	(8,0.8097)	(9,0.0000)	(10,0.0000)
+	(11,0.5110)	(12,0.5110)	(13,0.1713)	(14,0.0010)	(15,1.1503)
+	(16,0.0010)	(17,0.3407)	(18,0.1703)	(19,0.1703)	(20,0.1693)
+
+[Aggregation Process]
+[i] Calculating the binary variables "delta"...OK!
+[Re] Binary variable matrix "delta":
+	* delta[1][m][n] *
+		c1	c2	c3	c4
+	a001	0	1	0	0
+	a002	0	1	0	1
+	a003	0	1	0	0
+	a004	0	1	1	0
+	a005	0	1	0	1
+	a006	0	1	1	0
+	a007	0	1	0	1
+	a008	0	1	1	1
+	a009	0	1	0	0
+	a010	0	1	1	1
+	a011	0	1	1	0
+	a012	0	1	0	1
+	a013	0	1	1	1
+	a014	0	1	1	0
+	a015	0	1	1	1
+	a016	0	1	1	0
+	a017	0	1	0	0
+	a018	0	1	1	1
+	a019	0	1	0	1
+	a020	0	1	1	1
+	a021	0	1	0	1
+	a022	1	1	1	0
+	a023	0	1	0	1
+	a024	0	1	1	1
+	a025	0	1	1	0
+	a026	0	1	0	1
+	a027	1	1	0	1
+	a028	0	1	0	0
+	a029	0	1	0	0
+	a030	0	1	1	0
+	a031	1	1	0	0
+	a032	0	1	0	0
+	a033	0	1	1	1
+	a034	0	1	1	1
+	a035	0	1	1	0
+	a036	0	1	1	0
+	a037	0	1	0	0
+	a038	0	1	1	0
+	a039	0	1	0	1
+	a040	0	1	0	0
+	a041	0	1	0	0
+	a042	0	1	1	0
+	a043	0	1	1	0
+	a044	0	1	0	0
+	a045	0	1	1	0
+	a046	0	1	1	1
+	a047	0	1	1	0
+	a048	0	1	1	1
+	a049	0	1	0	1
+	a050	0	1	1	1
+	a051	0	1	0	1
+	a052	0	1	1	1
+	a053	0	1	0	1
+	a054	0	1	1	0
+	a055	0	1	0	1
+	a056	0	1	1	1
+	a057	0	1	0	1
+	a058	0	1	1	0
+	a059	0	1	0	0
+	a060	0	1	1	0
+	a061	0	1	1	0
+	a062	0	1	0	1
+	a063	0	1	1	1
+	a064	0	1	0	1
+	a065	0	1	0	0
+	a066	0	1	0	0
+	a067	0	1	1	1
+	a068	0	1	1	1
+	a069	0	1	0	1
+	a070	0	1	0	1
+	a071	0	1	0	0
+	a072	0	1	0	0
+	a073	0	1	0	1
+	a074	0	1	1	0
+	a075	0	1	0	0
+	a076	0	1	0	0
+	a077	0	1	1	1
+	a078	1	1	1	1
+	a079	0	1	0	0
+	a080	0	1	1	1
+	a081	0	1	1	1
+	a082	0	1	0	0
+	a083	0	1	0	0
+	a084	0	1	1	0
+	a085	0	1	0	1
+	a086	0	1	1	0
+	a087	0	1	1	0
+	a088	0	1	0	0
+	a089	0	1	1	1
+	a090	0	1	1	0
+	a091	0	1	1	0
+	a092	0	1	1	0
+	a093	0	1	1	1
+	a094	0	1	1	0
+	a095	0	1	0	1
+	a096	0	1	1	1
+	a097	0	1	0	1
+	a098	0	1	0	0
+	a099	0	1	1	0
+	a100	0	1	1	0
+	* delta[2][m][n] *
+		c1	c2	c3	c4
+	a001	0	0	0	0
+	a002	0	1	0	0
+	a003	0	0	0	0
+	a004	0	1	1	0
+	a005	0	0	0	0
+	a006	0	0	0	0
+	a007	0	0	0	0
+	a008	0	0	1	1
+	a009	0	0	0	0
+	a010	0	1	0	0
+	a011	0	0	1	0
+	a012	0	0	0	0
+	a013	0	0	1	1
+	a014	0	0	1	0
+	a015	0	0	1	0
+	a016	0	0	0	0
+	a017	0	0	0	0
+	a018	0	1	0	0
+	a019	0	0	0	1
+	a020	0	1	0	1
+	a021	0	1	0	0
+	a022	1	0	0	0
+	a023	0	0	0	0
+	a024	0	0	1	1
+	a025	0	0	0	0
+	a026	0	0	0	0
+	a027	1	0	0	0
+	a028	0	0	0	0
+	a029	0	1	0	0
+	a030	0	0	0	0
+	a031	1	0	0	0
+	a032	0	0	0	0
+	a033	0	0	0	0
+	a034	0	0	0	1
+	a035	0	0	0	0
+	a036	0	0	0	0
+	a037	0	1	0	0
+	a038	0	0	1	0
+	a039	0	0	0	0
+	a040	0	0	0	0
+	a041	0	0	0	0
+	a042	0	0	0	0
+	a043	0	0	1	0
+	a044	0	0	0	0
+	a045	0	1	1	0
+	a046	0	0	0	0
+	a047	0	0	0	0
+	a048	0	0	0	0
+	a049	0	0	0	0
+	a050	0	0	1	0
+	a051	0	1	0	1
+	a052	0	0	1	0
+	a053	0	0	0	1
+	a054	0	1	0	0
+	a055	0	0	0	0
+	a056	0	0	0	0
+	a057	0	0	0	1
+	a058	0	0	1	0
+	a059	0	1	0	0
+	a060	0	0	1	0
+	a061	0	0	0	0
+	a062	0	0	0	0
+	a063	0	0	0	0
+	a064	0	0	0	1
+	a065	0	0	0	0
+	a066	0	1	0	0
+	a067	0	0	0	0
+	a068	0	0	1	0
+	a069	0	0	0	0
+	a070	0	0	0	0
+	a071	0	0	0	0
+	a072	0	0	0	0
+	a073	0	0	0	1
+	a074	0	1	0	0
+	a075	0	1	0	0
+	a076	0	0	0	0
+	a077	0	0	0	0
+	a078	1	0	0	0
+	a079	0	0	0	0
+	a080	0	1	0	1
+	a081	0	0	1	0
+	a082	0	0	0	0
+	a083	0	1	0	0
+	a084	0	0	0	0
+	a085	0	0	0	0
+	a086	0	0	0	0
+	a087	0	0	0	0
+	a088	0	1	0	0
+	a089	0	0	1	1
+	a090	0	0	1	0
+	a091	0	0	1	0
+	a092	0	0	0	0
+	a093	0	0	1	0
+	a094	0	0	0	0
+	a095	0	1	0	0
+	a096	0	1	0	0
+	a097	0	0	0	1
+	a098	0	0	0	0
+	a099	0	0	0	0
+	a100	0	0	1	0
+[i] Calculating the weighted variables "c"...OK!
+[Re] Weighted variable matrix "c":
+	* c[1][m][n] *
+		c1	c2	c3	c4
+	a001	0.00	0.17	0.00	0.00
+	a002	0.00	0.17	0.00	0.17
+	a003	0.00	0.17	0.00	0.00
+	a004	0.00	0.17	0.17	0.00
+	a005	0.00	0.17	0.00	0.17
+	a006	0.00	0.17	0.17	0.00
+	a007	0.00	0.17	0.00	0.17
+	a008	0.00	0.17	0.17	0.17
+	a009	0.00	0.17	0.00	0.00
+	a010	0.00	0.17	0.17	0.17
+	a011	0.00	0.17	0.17	0.00
+	a012	0.00	0.17	0.00	0.17
+	a013	0.00	0.17	0.17	0.17
+	a014	0.00	0.17	0.17	0.00
+	a015	0.00	0.17	0.17	0.17
+	a016	0.00	0.17	0.17	0.00
+	a017	0.00	0.17	0.00	0.00
+	a018	0.00	0.17	0.17	0.17
+	a019	0.00	0.17	0.00	0.17
+	a020	0.00	0.17	0.17	0.17
+	a021	0.00	0.17	0.00	0.17
+	a022	0.49	0.17	0.17	0.00
+	a023	0.00	0.17	0.00	0.17
+	a024	0.00	0.17	0.17	0.17
+	a025	0.00	0.17	0.17	0.00
+	a026	0.00	0.17	0.00	0.17
+	a027	0.49	0.17	0.00	0.17
+	a028	0.00	0.17	0.00	0.00
+	a029	0.00	0.17	0.00	0.00
+	a030	0.00	0.17	0.17	0.00
+	a031	0.49	0.17	0.00	0.00
+	a032	0.00	0.17	0.00	0.00
+	a033	0.00	0.17	0.17	0.17
+	a034	0.00	0.17	0.17	0.17
+	a035	0.00	0.17	0.17	0.00
+	a036	0.00	0.17	0.17	0.00
+	a037	0.00	0.17	0.00	0.00
+	a038	0.00	0.17	0.17	0.00
+	a039	0.00	0.17	0.00	0.17
+	a040	0.00	0.17	0.00	0.00
+	a041	0.00	0.17	0.00	0.00
+	a042	0.00	0.17	0.17	0.00
+	a043	0.00	0.17	0.17	0.00
+	a044	0.00	0.17	0.00	0.00
+	a045	0.00	0.17	0.17	0.00
+	a046	0.00	0.17	0.17	0.17
+	a047	0.00	0.17	0.17	0.00
+	a048	0.00	0.17	0.17	0.17
+	a049	0.00	0.17	0.00	0.17
+	a050	0.00	0.17	0.17	0.17
+	a051	0.00	0.17	0.00	0.17
+	a052	0.00	0.17	0.17	0.17
+	a053	0.00	0.17	0.00	0.17
+	a054	0.00	0.17	0.17	0.00
+	a055	0.00	0.17	0.00	0.17
+	a056	0.00	0.17	0.17	0.17
+	a057	0.00	0.17	0.00	0.17
+	a058	0.00	0.17	0.17	0.00
+	a059	0.00	0.17	0.00	0.00
+	a060	0.00	0.17	0.17	0.00
+	a061	0.00	0.17	0.17	0.00
+	a062	0.00	0.17	0.00	0.17
+	a063	0.00	0.17	0.17	0.17
+	a064	0.00	0.17	0.00	0.17
+	a065	0.00	0.17	0.00	0.00
+	a066	0.00	0.17	0.00	0.00
+	a067	0.00	0.17	0.17	0.17
+	a068	0.00	0.17	0.17	0.17
+	a069	0.00	0.17	0.00	0.17
+	a070	0.00	0.17	0.00	0.17
+	a071	0.00	0.17	0.00	0.00
+	a072	0.00	0.17	0.00	0.00
+	a073	0.00	0.17	0.00	0.17
+	a074	0.00	0.17	0.17	0.00
+	a075	0.00	0.17	0.00	0.00
+	a076	0.00	0.17	0.00	0.00
+	a077	0.00	0.17	0.17	0.17
+	a078	0.49	0.17	0.17	0.17
+	a079	0.00	0.17	0.00	0.00
+	a080	0.00	0.17	0.17	0.17
+	a081	0.00	0.17	0.17	0.17
+	a082	0.00	0.17	0.00	0.00
+	a083	0.00	0.17	0.00	0.00
+	a084	0.00	0.17	0.17	0.00
+	a085	0.00	0.17	0.00	0.17
+	a086	0.00	0.17	0.17	0.00
+	a087	0.00	0.17	0.17	0.00
+	a088	0.00	0.17	0.00	0.00
+	a089	0.00	0.17	0.17	0.17
+	a090	0.00	0.17	0.17	0.00
+	a091	0.00	0.17	0.17	0.00
+	a092	0.00	0.17	0.17	0.00
+	a093	0.00	0.17	0.17	0.17
+	a094	0.00	0.17	0.17	0.00
+	a095	0.00	0.17	0.00	0.17
+	a096	0.00	0.17	0.17	0.17
+	a097	0.00	0.17	0.00	0.17
+	a098	0.00	0.17	0.00	0.00
+	a099	0.00	0.17	0.17	0.00
+	a100	0.00	0.17	0.17	0.00
+	* c[2][m][n] *
+		c1	c2	c3	c4
+	a001	0.00	0.00	0.00	0.00
+	a002	0.00	0.17	0.00	0.00
+	a003	0.00	0.00	0.00	0.00
+	a004	0.00	0.17	0.17	0.00
+	a005	0.00	0.00	0.00	0.00
+	a006	0.00	0.00	0.00	0.00
+	a007	0.00	0.00	0.00	0.00
+	a008	0.00	0.00	0.17	0.17
+	a009	0.00	0.00	0.00	0.00
+	a010	0.00	0.17	0.00	0.00
+	a011	0.00	0.00	0.17	0.00
+	a012	0.00	0.00	0.00	0.00
+	a013	0.00	0.00	0.17	0.17
+	a014	0.00	0.00	0.17	0.00
+	a015	0.00	0.00	0.17	0.00
+	a016	0.00	0.00	0.00	0.00
+	a017	0.00	0.00	0.00	0.00
+	a018	0.00	0.17	0.00	0.00
+	a019	0.00	0.00	0.00	0.17
+	a020	0.00	0.17	0.00	0.17
+	a021	0.00	0.17	0.00	0.00
+	a022	0.49	0.00	0.00	0.00
+	a023	0.00	0.00	0.00	0.00
+	a024	0.00	0.00	0.17	0.17
+	a025	0.00	0.00	0.00	0.00
+	a026	0.00	0.00	0.00	0.00
+	a027	0.49	0.00	0.00	0.00
+	a028	0.00	0.00	0.00	0.00
+	a029	0.00	0.17	0.00	0.00
+	a030	0.00	0.00	0.00	0.00
+	a031	0.49	0.00	0.00	0.00
+	a032	0.00	0.00	0.00	0.00
+	a033	0.00	0.00	0.00	0.00
+	a034	0.00	0.00	0.00	0.17
+	a035	0.00	0.00	0.00	0.00
+	a036	0.00	0.00	0.00	0.00
+	a037	0.00	0.17	0.00	0.00
+	a038	0.00	0.00	0.17	0.00
+	a039	0.00	0.00	0.00	0.00
+	a040	0.00	0.00	0.00	0.00
+	a041	0.00	0.00	0.00	0.00
+	a042	0.00	0.00	0.00	0.00
+	a043	0.00	0.00	0.17	0.00
+	a044	0.00	0.00	0.00	0.00
+	a045	0.00	0.17	0.17	0.00
+	a046	0.00	0.00	0.00	0.00
+	a047	0.00	0.00	0.00	0.00
+	a048	0.00	0.00	0.00	0.00
+	a049	0.00	0.00	0.00	0.00
+	a050	0.00	0.00	0.17	0.00
+	a051	0.00	0.17	0.00	0.17
+	a052	0.00	0.00	0.17	0.00
+	a053	0.00	0.00	0.00	0.17
+	a054	0.00	0.17	0.00	0.00
+	a055	0.00	0.00	0.00	0.00
+	a056	0.00	0.00	0.00	0.00
+	a057	0.00	0.00	0.00	0.17
+	a058	0.00	0.00	0.17	0.00
+	a059	0.00	0.17	0.00	0.00
+	a060	0.00	0.00	0.17	0.00
+	a061	0.00	0.00	0.00	0.00
+	a062	0.00	0.00	0.00	0.00
+	a063	0.00	0.00	0.00	0.00
+	a064	0.00	0.00	0.00	0.17
+	a065	0.00	0.00	0.00	0.00
+	a066	0.00	0.17	0.00	0.00
+	a067	0.00	0.00	0.00	0.00
+	a068	0.00	0.00	0.17	0.00
+	a069	0.00	0.00	0.00	0.00
+	a070	0.00	0.00	0.00	0.00
+	a071	0.00	0.00	0.00	0.00
+	a072	0.00	0.00	0.00	0.00
+	a073	0.00	0.00	0.00	0.17
+	a074	0.00	0.17	0.00	0.00
+	a075	0.00	0.17	0.00	0.00
+	a076	0.00	0.00	0.00	0.00
+	a077	0.00	0.00	0.00	0.00
+	a078	0.49	0.00	0.00	0.00
+	a079	0.00	0.00	0.00	0.00
+	a080	0.00	0.17	0.00	0.17
+	a081	0.00	0.00	0.17	0.00
+	a082	0.00	0.00	0.00	0.00
+	a083	0.00	0.17	0.00	0.00
+	a084	0.00	0.00	0.00	0.00
+	a085	0.00	0.00	0.00	0.00
+	a086	0.00	0.00	0.00	0.00
+	a087	0.00	0.00	0.00	0.00
+	a088	0.00	0.17	0.00	0.00
+	a089	0.00	0.00	0.17	0.17
+	a090	0.00	0.00	0.17	0.00
+	a091	0.00	0.00	0.17	0.00
+	a092	0.00	0.00	0.00	0.00
+	a093	0.00	0.00	0.17	0.00
+	a094	0.00	0.00	0.00	0.00
+	a095	0.00	0.17	0.00	0.00
+	a096	0.00	0.17	0.00	0.00
+	a097	0.00	0.00	0.00	0.17
+	a098	0.00	0.00	0.00	0.00
+	a099	0.00	0.00	0.00	0.00
+	a100	0.00	0.00	0.17	0.00
+[i] Calculating the coalitions of weighted variables "cw"...OK!
+[Re] Coalition of weights matrix "cw":
+		p1	p2
+	a001	0.17	0.00
+	a002	0.34	0.17
+	a003	0.17	0.00
+	a004	0.34	0.34
+	a005	0.34	0.00
+	a006	0.34	0.00
+	a007	0.34	0.00
+	a008	0.51	0.34
+	a009	0.17	0.00
+	a010	0.51	0.17
+	a011	0.34	0.17
+	a012	0.34	0.00
+	a013	0.51	0.34
+	a014	0.34	0.17
+	a015	0.51	0.17
+	a016	0.34	0.00
+	a017	0.17	0.00
+	a018	0.51	0.17
+	a019	0.34	0.17
+	a020	0.51	0.34
+	a021	0.34	0.17
+	a022	0.83	0.49
+	a023	0.34	0.00
+	a024	0.51	0.34
+	a025	0.34	0.00
+	a026	0.34	0.00
+	a027	0.83	0.49
+	a028	0.17	0.00
+	a029	0.17	0.17
+	a030	0.34	0.00
+	a031	0.66	0.49
+	a032	0.17	0.00
+	a033	0.51	0.00
+	a034	0.51	0.17
+	a035	0.34	0.00
+	a036	0.34	0.00
+	a037	0.17	0.17
+	a038	0.34	0.17
+	a039	0.34	0.00
+	a040	0.17	0.00
+	a041	0.17	0.00
+	a042	0.34	0.00
+	a043	0.34	0.17
+	a044	0.17	0.00
+	a045	0.34	0.34
+	a046	0.51	0.00
+	a047	0.34	0.00
+	a048	0.51	0.00
+	a049	0.34	0.00
+	a050	0.51	0.17
+	a051	0.34	0.34
+	a052	0.51	0.17
+	a053	0.34	0.17
+	a054	0.34	0.17
+	a055	0.34	0.00
+	a056	0.51	0.00
+	a057	0.34	0.17
+	a058	0.34	0.17
+	a059	0.17	0.17
+	a060	0.34	0.17
+	a061	0.34	0.00
+	a062	0.34	0.00
+	a063	0.51	0.00
+	a064	0.34	0.17
+	a065	0.17	0.00
+	a066	0.17	0.17
+	a067	0.51	0.00
+	a068	0.51	0.17
+	a069	0.34	0.00
+	a070	0.34	0.00
+	a071	0.17	0.00
+	a072	0.17	0.00
+	a073	0.34	0.17
+	a074	0.34	0.17
+	a075	0.17	0.17
+	a076	0.17	0.00
+	a077	0.51	0.00
+	a078	1.00	0.49
+	a079	0.17	0.00
+	a080	0.51	0.34
+	a081	0.51	0.17
+	a082	0.17	0.00
+	a083	0.17	0.17
+	a084	0.34	0.00
+	a085	0.34	0.00
+	a086	0.34	0.00
+	a087	0.34	0.00
+	a088	0.17	0.17
+	a089	0.51	0.34
+	a090	0.34	0.17
+	a091	0.34	0.17
+	a092	0.34	0.00
+	a093	0.51	0.17
+	a094	0.34	0.00
+	a095	0.34	0.17
+	a096	0.51	0.17
+	a097	0.34	0.17
+	a098	0.17	0.00
+	a099	0.34	0.00
+	a100	0.34	0.17
+[i] Calculating the slack variables "s"...OK!
+[Re] Slack variable matrix "c":
+	* s[mR][mC][1] *
+		a001	a002	a003	a004	a005	a006	a007	a008	a009	a010	a011	a012	a013	a014	a015	a016	a017	a018	a019	a020	a021	a022	a023	a024	a025	a026	a027	a028	a029	a030	a031	a032	a033	a034	a035	a036	a037	a038	a039	a040	a041	a042	a043	a044	a045	a046	a047	a048	a049	a050	a051	a052	a053	a054	a055	a056	a057	a058	a059	a060	a061	a062	a063	a064	a065	a066	a067	a068	a069	a070	a071	a072	a073	a074	a075	a076	a077	a078	a079	a080	a081	a082	a083	a084	a085	a086	a087	a088	a089	a090	a091	a092	a093	a094	a095	a096	a097	a098	a099	a100
+	a001	-	-0.17	0.00	-0.17	-0.17	-0.17	-0.17	-0.34	0.00	-0.34	-0.17	-0.17	-0.34	-0.17	-0.34	-0.17	0.00	-0.34	-0.17	-0.34	-0.17	-0.66	-0.17	-0.34	-0.17	-0.17	-0.66	0.00	0.00	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a002	-	-	0.17	0.00	0.00	0.00	0.00	-0.17	0.17	-0.17	0.00	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a003	-	-	-	-0.17	-0.17	-0.17	-0.17	-0.34	0.00	-0.34	-0.17	-0.17	-0.34	-0.17	-0.34	-0.17	0.00	-0.34	-0.17	-0.34	-0.17	-0.66	-0.17	-0.34	-0.17	-0.17	-0.66	0.00	0.00	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a004	-	-	-	-	0.00	0.00	0.00	-0.17	0.17	-0.17	0.00	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a005	-	-	-	-	-	0.00	0.00	-0.17	0.17	-0.17	0.00	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a006	-	-	-	-	-	-	0.00	-0.17	0.17	-0.17	0.00	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a007	-	-	-	-	-	-	-	-0.17	0.17	-0.17	0.00	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a008	-	-	-	-	-	-	-	-	0.34	0.00	0.17	0.17	0.00	0.17	0.00	0.17	0.34	0.00	0.17	0.00	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a009	-	-	-	-	-	-	-	-	-	-0.34	-0.17	-0.17	-0.34	-0.17	-0.34	-0.17	0.00	-0.34	-0.17	-0.34	-0.17	-0.66	-0.17	-0.34	-0.17	-0.17	-0.66	0.00	0.00	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a010	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.17	0.00	0.17	0.34	0.00	0.17	0.00	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a011	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a012	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a013	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.34	0.00	0.17	0.00	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a014	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a015	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.34	0.00	0.17	0.00	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a016	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.17	0.00	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a017	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.17	-0.34	-0.17	-0.66	-0.17	-0.34	-0.17	-0.17	-0.66	0.00	0.00	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a018	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a019	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a020	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.32	0.17	0.00	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a021	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.00	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a022	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.32	0.49	0.49	0.00	0.66	0.66	0.49	0.17	0.66	0.32	0.32	0.49	0.49	0.66	0.49	0.49	0.66	0.66	0.49	0.49	0.66	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.49	0.49	0.32	0.49	0.49	0.66	0.49	0.49	0.49	0.32	0.49	0.66	0.66	0.32	0.32	0.49	0.49	0.66	0.66	0.49	0.49	0.66	0.66	0.32	-0.17	0.66	0.32	0.32	0.66	0.66	0.49	0.49	0.49	0.49	0.66	0.32	0.49	0.49	0.49	0.32	0.49	0.49	0.32	0.49	0.66	0.49	0.49
+	a023	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a024	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	-0.32	0.34	0.34	0.17	-0.15	0.34	0.00	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a025	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a026	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.17	0.17	0.00	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a027	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.66	0.66	0.49	0.17	0.66	0.32	0.32	0.49	0.49	0.66	0.49	0.49	0.66	0.66	0.49	0.49	0.66	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.49	0.49	0.32	0.49	0.49	0.66	0.49	0.49	0.49	0.32	0.49	0.66	0.66	0.32	0.32	0.49	0.49	0.66	0.66	0.49	0.49	0.66	0.66	0.32	-0.17	0.66	0.32	0.32	0.66	0.66	0.49	0.49	0.49	0.49	0.66	0.32	0.49	0.49	0.49	0.32	0.49	0.49	0.32	0.49	0.66	0.49	0.49
+	a028	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a029	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.49	0.00	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a030	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.32	0.17	-0.17	-0.17	0.00	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a031	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.15	0.15	0.32	0.32	0.49	0.32	0.32	0.49	0.49	0.32	0.32	0.49	0.32	0.15	0.32	0.15	0.32	0.15	0.32	0.15	0.32	0.32	0.32	0.15	0.32	0.32	0.49	0.32	0.32	0.32	0.15	0.32	0.49	0.49	0.15	0.15	0.32	0.32	0.49	0.49	0.32	0.32	0.49	0.49	0.15	-0.34	0.49	0.15	0.15	0.49	0.49	0.32	0.32	0.32	0.32	0.49	0.15	0.32	0.32	0.32	0.15	0.32	0.32	0.15	0.32	0.49	0.32	0.32
+	a032	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a033	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a034	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.34	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a035	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a036	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a037	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a038	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a039	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a040	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a041	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	0.00	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a042	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a043	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a044	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a045	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a046	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a047	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a048	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a049	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a050	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a051	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a052	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.00	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a053	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a054	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a055	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a056	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.34	0.17	0.17	0.17	0.00	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a057	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a058	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a059	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.17	-0.34	-0.17	0.00	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a060	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a061	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a062	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a063	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.34	0.34	0.00	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a064	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	-0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a065	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a066	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a067	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a068	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.00	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a069	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a070	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a071	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a072	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	0.00	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a073	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a074	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	-0.17	-0.66	0.17	-0.17	-0.17	0.17	0.17	0.00	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a075	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a076	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.83	0.00	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a077	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.34	0.00	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a078	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.83	0.49	0.49	0.83	0.83	0.66	0.66	0.66	0.66	0.83	0.49	0.66	0.66	0.66	0.49	0.66	0.66	0.49	0.66	0.83	0.66	0.66
+	a079	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.34	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a080	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a081	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.00	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a082	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a083	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a084	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a085	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a086	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a087	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a088	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.17	-0.17	-0.17	-0.34	-0.17	-0.17	-0.34	-0.17	0.00	-0.17	-0.17
+	a089	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.00	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a090	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a091	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a092	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	-0.17	0.00	0.17	0.00	0.00
+	a093	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.17	0.34	0.17	0.17
+	a094	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	0.17	0.00	0.00
+	a095	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.17	0.00	0.00
+	a096	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.34	0.17	0.17
+	a097	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.00
+	a098	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17
+	a099	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00
+	a100	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+	* s[mR][mC][2] *
+		a001	a002	a003	a004	a005	a006	a007	a008	a009	a010	a011	a012	a013	a014	a015	a016	a017	a018	a019	a020	a021	a022	a023	a024	a025	a026	a027	a028	a029	a030	a031	a032	a033	a034	a035	a036	a037	a038	a039	a040	a041	a042	a043	a044	a045	a046	a047	a048	a049	a050	a051	a052	a053	a054	a055	a056	a057	a058	a059	a060	a061	a062	a063	a064	a065	a066	a067	a068	a069	a070	a071	a072	a073	a074	a075	a076	a077	a078	a079	a080	a081	a082	a083	a084	a085	a086	a087	a088	a089	a090	a091	a092	a093	a094	a095	a096	a097	a098	a099	a100
+	a001	-	-0.17	0.00	-0.34	0.00	0.00	0.00	-0.34	0.00	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a002	-	-	0.17	-0.17	0.17	0.17	0.17	-0.17	0.17	0.00	-0.00	0.17	-0.17	-0.00	-0.00	0.17	0.17	0.00	-0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	-0.00	0.17	0.17	0.00	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a003	-	-	-	-0.34	0.00	0.00	0.00	-0.34	0.00	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a004	-	-	-	-	0.34	0.34	0.34	-0.00	0.34	0.17	0.17	0.34	-0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.00	0.17	-0.15	0.34	-0.00	0.34	0.34	-0.15	0.34	0.17	0.34	-0.15	0.34	0.34	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.34	0.34	0.17	0.34	0.00	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	-0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a005	-	-	-	-	-	0.00	0.00	-0.34	0.00	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a006	-	-	-	-	-	-	0.00	-0.34	0.00	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a007	-	-	-	-	-	-	-	-0.34	0.00	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a008	-	-	-	-	-	-	-	-	0.34	0.17	0.17	0.34	0.00	0.17	0.17	0.34	0.34	0.17	0.17	0.00	0.17	-0.15	0.34	0.00	0.34	0.34	-0.15	0.34	0.17	0.34	-0.15	0.34	0.34	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.34	0.34	0.17	0.34	0.00	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a009	-	-	-	-	-	-	-	-	-	-0.17	-0.17	0.00	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a010	-	-	-	-	-	-	-	-	-	-	-0.00	0.17	-0.17	-0.00	-0.00	0.17	0.17	0.00	-0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	-0.00	0.17	0.17	0.00	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a011	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.17	0.00	0.00	0.17	0.17	0.00	0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	0.00	0.17	0.17	0.00	0.00	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a012	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a013	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.34	0.34	0.17	0.17	0.00	0.17	-0.15	0.34	0.00	0.34	0.34	-0.15	0.34	0.17	0.34	-0.15	0.34	0.34	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.34	0.34	0.17	0.34	0.00	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a014	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.00	0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	0.00	0.17	0.17	0.00	0.00	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a015	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	0.00	0.17	0.17	0.00	0.00	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a016	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a017	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.34	-0.17	-0.49	0.00	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a018	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.00	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	-0.00	0.17	0.17	0.00	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a019	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	0.00	0.17	0.17	0.00	0.00	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a020	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.15	0.34	-0.00	0.34	0.34	-0.15	0.34	0.17	0.34	-0.15	0.34	0.34	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.34	0.34	0.17	0.34	0.00	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	-0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a021	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.32	0.17	-0.17	0.17	0.17	-0.32	0.17	0.00	0.17	-0.32	0.17	0.17	-0.00	0.17	0.17	0.00	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a022	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.15	0.49	0.49	0.00	0.49	0.32	0.49	0.00	0.49	0.49	0.32	0.49	0.49	0.32	0.32	0.49	0.49	0.49	0.49	0.32	0.49	0.15	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.32	0.49	0.49	0.32	0.32	0.32	0.32	0.49	0.49	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.32	0.32	0.49	0.49	0.00	0.49	0.15	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.49	0.32	0.49	0.32	0.32	0.32	0.49	0.49	0.32
+	a023	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	0.00	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a024	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.34	0.34	-0.15	0.34	0.17	0.34	-0.15	0.34	0.34	0.17	0.34	0.34	0.17	0.17	0.34	0.34	0.34	0.34	0.17	0.34	0.00	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a025	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a026	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.00	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a027	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.32	0.49	0.00	0.49	0.49	0.32	0.49	0.49	0.32	0.32	0.49	0.49	0.49	0.49	0.32	0.49	0.15	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.32	0.49	0.49	0.32	0.32	0.32	0.32	0.49	0.49	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.32	0.32	0.49	0.49	0.00	0.49	0.15	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.49	0.32	0.49	0.32	0.32	0.32	0.49	0.49	0.32
+	a028	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a029	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.32	0.17	0.17	-0.00	0.17	0.17	0.00	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a030	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.00	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a031	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.49	0.32	0.49	0.49	0.32	0.32	0.49	0.49	0.49	0.49	0.32	0.49	0.15	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.32	0.49	0.49	0.32	0.32	0.32	0.32	0.49	0.49	0.49	0.32	0.49	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.32	0.32	0.49	0.49	0.00	0.49	0.15	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.49	0.32	0.49	0.32	0.32	0.32	0.49	0.49	0.32
+	a032	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a033	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a034	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00	0.00	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a035	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a036	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	0.00	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a037	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.00	0.17	0.17	0.17	0.17	-0.00	0.17	-0.17	0.17	0.17	0.17	0.17	-0.00	-0.17	-0.00	-0.00	0.00	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a038	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.17	0.00	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a039	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a040	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a041	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a042	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a043	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.17	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a044	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a045	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.34	0.34	0.34	0.34	0.17	0.00	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	-0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a046	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a047	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a048	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a049	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.34	-0.17	-0.17	-0.17	0.00	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a050	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a051	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.34	0.34	0.17	0.17	0.17	0.17	0.34	0.34	0.34	0.17	0.34	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	0.17	0.17	0.34	0.34	-0.15	0.34	0.00	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	-0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a052	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a053	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	0.00	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a054	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	-0.00	-0.00	0.00	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a055	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a056	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.17	-0.17	0.00	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a057	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a058	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a059	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.00	0.17	0.17	0.17	-0.00	0.17	0.00	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a060	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.00	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a061	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a062	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a063	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a064	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a065	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a066	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	-0.00	0.17	0.17	0.17	0.17	-0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a067	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a068	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.17	0.00	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a069	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a070	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a071	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a072	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.17	0.00	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a073	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.17	0.17	-0.32	0.17	-0.17	0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a074	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a075	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	-0.32	0.17	-0.17	-0.00	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a076	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a077	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.49	0.00	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a078	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.49	0.15	0.32	0.49	0.32	0.49	0.49	0.49	0.49	0.32	0.15	0.32	0.32	0.49	0.32	0.49	0.32	0.32	0.32	0.49	0.49	0.32
+	a079	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.34	-0.17	0.00	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a080	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.34	0.17	0.34	0.34	0.34	0.34	0.17	-0.00	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a081	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.17	0.17	0.17	0.00	-0.17	0.00	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a082	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a083	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.17	0.17	0.00	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a084	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a085	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a086	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a087	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.34	-0.17	-0.17	0.00	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a088	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.00	-0.00	0.17	-0.00	0.17	0.00	0.00	-0.00	0.17	0.17	-0.00
+	a089	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.34	0.17	0.34	0.17	0.17	0.17	0.34	0.34	0.17
+	a090	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a091	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a092	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	0.00	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a093	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.00	0.00	0.00	0.17	0.17	0.00
+	a094	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17	-0.17	-0.17	0.00	0.00	-0.17
+	a095	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.00	0.17	0.17	-0.00
+	a096	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.00	0.17	0.17	-0.00
+	a097	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.17	0.17	0.00
+	a098	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0.00	-0.17
+	a099	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-0.17
+	a100	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+[i] Determinating the relative preference relations...OK!
+[Re] Preference with respect to the reference point "p1":
+    (1 = Preference, 0 = Indifference, -1 = Opposite preference)
+		a001	a002	a003	a004	a005	a006	a007	a008	a009	a010	a011	a012	a013	a014	a015	a016	a017	a018	a019	a020	a021	a022	a023	a024	a025	a026	a027	a028	a029	a030	a031	a032	a033	a034	a035	a036	a037	a038	a039	a040	a041	a042	a043	a044	a045	a046	a047	a048	a049	a050	a051	a052	a053	a054	a055	a056	a057	a058	a059	a060	a061	a062	a063	a064	a065	a066	a067	a068	a069	a070	a071	a072	a073	a074	a075	a076	a077	a078	a079	a080	a081	a082	a083	a084	a085	a086	a087	a088	a089	a090	a091	a092	a093	a094	a095	a096	a097	a098	a099	a100
+	a001	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a002	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a003	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a004	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a005	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a006	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a007	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a008	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a009	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a010	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a011	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a012	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a013	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a014	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a015	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a016	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a017	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a018	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a019	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a020	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a021	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a022	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a023	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a024	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a025	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a026	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a027	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a028	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a029	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a030	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a031	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a032	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a033	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a034	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a035	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a036	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a037	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a038	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a039	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a040	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a041	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a042	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a043	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a044	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a045	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a046	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a047	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a048	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a049	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a050	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a051	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a052	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a053	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a054	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a055	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a056	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a057	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a058	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a059	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a060	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a061	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a062	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a063	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a064	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a065	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a066	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a067	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a068	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a069	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a070	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a071	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a072	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a073	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a074	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a075	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a076	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a077	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a078	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a079	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a080	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a081	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a082	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a083	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a084	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a085	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a086	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a087	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a088	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a089	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a090	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a091	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a092	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a093	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a094	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a095	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a096	1	1	1	1	1	1	1	0	1	0	1	1	0	1	0	1	1	0	1	0	1	-1	1	0	1	1	-1	1	1	1	-1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	0	-1	1	0	0	1	1	1	1	1	1	1	0	1	1	1	0	1	1	0	1	1	1	1
+	a097	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a098	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	0	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	-1	-1	0	0	-1	-1	0	-1	-1	0	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a099	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+	a100	1	0	1	0	0	0	0	-1	1	-1	0	0	-1	0	-1	0	1	-1	0	-1	0	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	0	0	1	1	0	0	1	0	-1	0	-1	0	-1	0	-1	0	0	0	-1	0	0	1	0	0	0	-1	0	1	1	-1	-1	0	0	1	1	0	0	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	0	0	0	-1	0	0	-1	0	1	0	0
+[Re] Preference with respect to the reference point "p2":
+    (1 = Preference, 0 = Indifference, -1 = Opposite preference)
+		a001	a002	a003	a004	a005	a006	a007	a008	a009	a010	a011	a012	a013	a014	a015	a016	a017	a018	a019	a020	a021	a022	a023	a024	a025	a026	a027	a028	a029	a030	a031	a032	a033	a034	a035	a036	a037	a038	a039	a040	a041	a042	a043	a044	a045	a046	a047	a048	a049	a050	a051	a052	a053	a054	a055	a056	a057	a058	a059	a060	a061	a062	a063	a064	a065	a066	a067	a068	a069	a070	a071	a072	a073	a074	a075	a076	a077	a078	a079	a080	a081	a082	a083	a084	a085	a086	a087	a088	a089	a090	a091	a092	a093	a094	a095	a096	a097	a098	a099	a100
+	a001	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a002	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a003	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a004	1	1	1	0	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a005	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a006	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a007	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a008	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a009	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a010	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a011	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a012	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a013	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a014	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a015	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a016	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a017	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a018	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a019	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a020	1	1	1	0	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a021	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a022	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a023	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a024	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a025	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a026	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a027	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a028	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a029	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a030	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a031	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a032	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a033	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a034	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a035	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a036	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a037	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a038	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a039	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a040	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a041	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a042	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a043	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a044	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a045	1	1	1	0	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a046	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a047	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a048	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a049	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a050	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a051	1	1	1	0	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a052	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a053	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a054	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a055	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a056	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a057	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a058	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a059	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a060	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a061	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a062	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a063	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a064	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a065	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a066	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a067	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a068	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a069	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a070	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a071	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a072	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a073	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a074	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a075	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a076	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a077	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a078	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a079	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a080	1	1	1	0	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a081	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a082	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a083	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a084	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a085	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a086	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a087	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a088	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a089	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a090	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a091	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a092	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a093	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a094	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a095	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a096	1	0	1	-1	1	1	1	-1	1	0	-1	1	-1	-1	-1	1	1	0	-1	-1	0	-1	1	-1	1	1	-1	1	0	1	-1	1	1	-1	1	1	0	-1	1	1	1	1	-1	1	-1	1	1	1	1	-1	-1	-1	-1	0	1	1	-1	-1	0	-1	1	1	1	-1	1	0	1	-1	1	1	1	1	-1	0	0	1	1	-1	1	-1	-1	1	0	1	1	1	1	0	-1	-1	-1	1	-1	1	0	0	-1	1	1	-1
+	a097	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+	a098	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a099	0	-1	0	-1	0	0	0	-1	0	-1	-1	0	-1	-1	-1	0	0	-1	-1	-1	-1	-1	0	-1	0	0	-1	0	-1	0	-1	0	0	-1	0	0	-1	-1	0	0	0	0	-1	0	-1	0	0	0	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	-1	0	0	0	-1	0	-1	0	-1	0	0	0	0	-1	-1	-1	0	0	-1	0	-1	-1	0	-1	0	0	0	0	-1	-1	-1	-1	0	-1	0	-1	-1	-1	0	0	-1
+	a100	1	1	1	-1	1	1	1	-1	1	1	0	1	-1	0	0	1	1	1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	0	1	1	1	1	0	1	-1	1	1	1	1	0	-1	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	0	0	1	0	1	1	1	0	1	1	0
+[i] Determinating the global preference relations...OK!
+[Re] Global preference:
+    (1 = Preference, 0 = Indifference, -1 = Opposite preference)
+		a001	a002	a003	a004	a005	a006	a007	a008	a009	a010	a011	a012	a013	a014	a015	a016	a017	a018	a019	a020	a021	a022	a023	a024	a025	a026	a027	a028	a029	a030	a031	a032	a033	a034	a035	a036	a037	a038	a039	a040	a041	a042	a043	a044	a045	a046	a047	a048	a049	a050	a051	a052	a053	a054	a055	a056	a057	a058	a059	a060	a061	a062	a063	a064	a065	a066	a067	a068	a069	a070	a071	a072	a073	a074	a075	a076	a077	a078	a079	a080	a081	a082	a083	a084	a085	a086	a087	a088	a089	a090	a091	a092	a093	a094	a095	a096	a097	a098	a099	a100
+	a001	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a002	1	0	1	-1	1	1	1	-1	1	-1	-1	1	-1	-1	-1	1	1	-1	-1	-1	0	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	-1	1	1	1	1	-1	1	-1	-1	1	-1	1	-1	-1	-1	-1	0	1	-1	-1	-1	1	-1	1	1	-1	-1	1	1	-1	-1	1	1	1	1	-1	0	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	-1	-1	1	-1	1	0	-1	-1	1	1	-1
+	a003	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a004	1	1	1	0	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	1	1	1	0	-1	1	-1	1	-1	0	-1	1	1	1	-1	1	1	1	1	1	1	-1	1	1	1	-1	-1	1	1	1	1	1	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a005	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a006	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a007	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a008	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a009	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a010	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	-1	1	1	0	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1
+	a011	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a012	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a013	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a014	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a015	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a016	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a017	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a018	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	-1	1	1	0	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1
+	a019	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a020	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a021	1	0	1	-1	1	1	1	-1	1	-1	-1	1	-1	-1	-1	1	1	-1	-1	-1	0	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	-1	1	1	1	1	-1	1	-1	-1	1	-1	1	-1	-1	-1	-1	0	1	-1	-1	-1	1	-1	1	1	-1	-1	1	1	-1	-1	1	1	1	1	-1	0	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	-1	-1	1	-1	1	0	-1	-1	1	1	-1
+	a022	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a023	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a024	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a025	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a026	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a027	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a028	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a029	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a030	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a031	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a032	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a033	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a034	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a035	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a036	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a037	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a038	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a039	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a040	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a041	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a042	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a043	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a044	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a045	1	1	1	0	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	1	1	1	0	-1	1	-1	1	-1	0	-1	1	1	1	-1	1	1	1	1	1	1	-1	1	1	1	-1	-1	1	1	1	1	1	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a046	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a047	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a048	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a049	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a050	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a051	1	1	1	0	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	1	1	1	0	-1	1	-1	1	-1	0	-1	1	1	1	-1	1	1	1	1	1	1	-1	1	1	1	-1	-1	1	1	1	1	1	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a052	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a053	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a054	1	0	1	-1	1	1	1	-1	1	-1	-1	1	-1	-1	-1	1	1	-1	-1	-1	0	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	-1	1	1	1	1	-1	1	-1	-1	1	-1	1	-1	-1	-1	-1	0	1	-1	-1	-1	1	-1	1	1	-1	-1	1	1	-1	-1	1	1	1	1	-1	0	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	-1	-1	1	-1	1	0	-1	-1	1	1	-1
+	a055	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a056	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a057	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a058	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a059	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a060	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a061	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a062	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a063	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a064	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a065	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a066	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a067	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a068	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a069	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a070	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a071	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a072	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a073	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a074	1	0	1	-1	1	1	1	-1	1	-1	-1	1	-1	-1	-1	1	1	-1	-1	-1	0	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	-1	1	1	1	1	-1	1	-1	-1	1	-1	1	-1	-1	-1	-1	0	1	-1	-1	-1	1	-1	1	1	-1	-1	1	1	-1	-1	1	1	1	1	-1	0	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	-1	-1	1	-1	1	0	-1	-1	1	1	-1
+	a075	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a076	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a077	1	1	1	1	1	1	1	-1	1	-1	1	1	-1	1	-1	1	1	-1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	0	-1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	-1	1	-1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	-1	1	1	1	1	1	1	1	1	0	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1
+	a078	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+	a079	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a080	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	1	1	1	1	1	0	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	0	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1
+	a081	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a082	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a083	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a084	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a085	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a086	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a087	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a088	1	-1	1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	0	-1	-1	1	-1	-1	-1	-1	0	-1	-1	1	1	-1	-1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	1	0	-1	-1	-1	-1	1	1	-1	-1	0	1	-1	-1	1	-1	-1	1	0	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	1	-1	-1
+	a089	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1
+	a090	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a091	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a092	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a093	1	1	1	1	1	1	1	-1	1	1	1	1	-1	1	0	1	1	1	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	-1	1	-1	0	1	1	1	1	1	1	1	-1	1	1	1	0	1	1	1	1	1	1	1
+	a094	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a095	1	0	1	-1	1	1	1	-1	1	-1	-1	1	-1	-1	-1	1	1	-1	-1	-1	0	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	-1	1	1	1	1	-1	1	-1	-1	1	-1	1	-1	-1	-1	-1	0	1	-1	-1	-1	1	-1	1	1	-1	-1	1	1	-1	-1	1	1	1	1	-1	0	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	-1	-1	1	-1	1	0	-1	-1	1	1	-1
+	a096	1	1	1	1	1	1	1	-1	1	0	1	1	-1	1	-1	1	1	0	1	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	-1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	-1	1	1	1	1	1	1	1	1	1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	1	1	1	-1	1	1	0	1	1	1	1
+	a097	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+	a098	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	0	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1	-1	-1	-1	0	0	-1	-1	-1	0	-1	-1	0	-1	-1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	-1	-1
+	a099	1	-1	1	-1	0	0	0	-1	1	-1	-1	0	-1	-1	-1	0	1	-1	-1	-1	-1	-1	0	-1	0	0	-1	1	1	0	-1	1	-1	-1	0	0	1	-1	0	1	1	0	-1	1	-1	-1	0	-1	0	-1	-1	-1	-1	-1	0	-1	-1	-1	1	-1	0	0	-1	-1	1	1	-1	-1	0	0	1	1	-1	-1	1	1	-1	-1	1	-1	-1	1	1	0	0	0	0	1	-1	-1	-1	0	-1	0	-1	-1	-1	1	0	-1
+	a100	1	1	1	-1	1	1	1	-1	1	-1	0	1	-1	0	-1	1	1	-1	0	-1	1	-1	1	-1	1	1	-1	1	1	1	-1	1	-1	-1	1	1	1	0	1	1	1	1	0	1	-1	-1	1	-1	1	-1	-1	-1	0	1	1	-1	0	0	1	0	1	1	-1	0	1	1	-1	-1	1	1	1	1	0	1	1	1	-1	-1	1	-1	-1	1	1	1	1	1	1	1	-1	0	0	1	-1	1	1	-1	0	1	1	0
+[Re] Ranking of the alternatives:
+    1: [Alternative [a078]]
+    2: [Alternative [a022], Alternative [a027]]
+    3: [Alternative [a031]]
+    4: [Alternative [a008], Alternative [a013], Alternative [a024], Alternative [a089]]
+    5: [Alternative [a080], Alternative [a020]]
+    6: [Alternative [a068], Alternative [a081], Alternative [a050], Alternative [a052], Alternative [a034], Alternative [a015], Alternative [a093]]
+    7: [Alternative [a018], Alternative [a010], Alternative [a096]]
+    8: [Alternative [a056], Alternative [a033], Alternative [a063], Alternative [a077], Alternative [a048], Alternative [a046], Alternative [a067]]
+    9: [Alternative [a045], Alternative [a004], Alternative [a051]]
+    10: [Alternative [a053], Alternative [a043], Alternative [a100], Alternative [a011], Alternative [a091], Alternative [a019], Alternative [a090], Alternative [a014], Alternative [a060], Alternative [a073], Alternative [a097], Alternative [a038], Alternative [a057], Alternative [a064], Alternative [a058]]
+    11: [Alternative [a054], Alternative [a021], Alternative [a002], Alternative [a074], Alternative [a095]]
+    12: [Alternative [a030], Alternative [a055], Alternative [a012], Alternative [a092], Alternative [a070], Alternative [a016], Alternative [a099], Alternative [a035], Alternative [a036], Alternative [a039], Alternative [a094], Alternative [a069], Alternative [a042], Alternative [a023], Alternative [a007], Alternative [a006], Alternative [a005], Alternative [a026], Alternative [a086], Alternative [a061], Alternative [a087], Alternative [a062], Alternative [a025], Alternative [a049], Alternative [a084], Alternative [a047], Alternative [a085]]
+    13: [Alternative [a088], Alternative [a037], Alternative [a083], Alternative [a075], Alternative [a066], Alternative [a059], Alternative [a029]]
+    14: [Alternative [a044], Alternative [a079], Alternative [a032], Alternative [a041], Alternative [a040], Alternative [a001], Alternative [a009], Alternative [a017], Alternative [a003], Alternative [a071], Alternative [a098], Alternative [a072], Alternative [a082], Alternative [a065], Alternative [a028], Alternative [a076]]
+
+[i] Aggregation completed!
+[Re] Reference pairwise comparisons:
+    1: a021 > a006
+    2: a019 > a088
+    3: a056 > a021
+    4: a048 > a023
+    5: a024 > a052
+    6: a013 > a025
+    7: a097 > a025
+    8: a027 > a060
+    9: a035 ~ a061
+    10: a035 ~ a086
+    11: a034 > a040
+    12: a081 > a041
+    13: a050 > a054
+    14: a061 > a037
+    15: a027 > a065
+    16: a055 > a066
+    17: a053 > a072
+    18: a074 > a037
+    19: a090 > a085
+    20: a095 > a016
+[i] The ratio of representables is 100.00% (2 indiff.).
+
+ *** Files Exporting *** 
+
+[i] Exporting malaga/outputs/xmls/profileConfigs.xml...OK!
+[i] profileConfigs.xml has been successfully exported!
+[Re] Configuration of the reference points:
+	c1	c2	c3	c4
+    p1	91.00	0.00	50.00	59.00
+    p2	91.00	90.00	29.00	10.00
+[Re] Lexicographic order of reference points:[1, 2]
+[i] Exporting malaga/outputs/xmls/weights.xml...OK!
+[i] weights.xml has been successfully exported!
+[Re] Criteria weights:
+    c1:0.49    c2:0.17    c3:0.17    c4:0.17
+[i] 2/2 files have been exported.
+[i] Exporting completed!
+
+---------- END OF OUTPUTS ----------

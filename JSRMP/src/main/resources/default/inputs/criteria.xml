@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+  <criteria>
+    <criterion id="c1" name="Unknown">
+      <scale>
+        <quantitative>
+          <preferenceDirection>max</preferenceDirection>
+          <minimum>
+            <real>0.0</real>
+          </minimum>
+          <maximum>
+            <real>100.0</real>
+          </maximum>
+        </quantitative>
+      </scale>
+    </criterion>
+    <criterion id="c2" name="Unknown">
+      <scale>
+        <quantitative>
+          <preferenceDirection>max</preferenceDirection>
+          <minimum>
+            <real>0.0</real>
+          </minimum>
+          <maximum>
+            <real>100.0</real>
+          </maximum>
+        </quantitative>
+      </scale>
+    </criterion>
+    <criterion id="c3" name="Unknown">
+      <scale>
+        <quantitative>
+          <preferenceDirection>min</preferenceDirection>
+          <minimum>
+            <real>0.0</real>
+          </minimum>
+          <maximum>
+            <real>100.0</real>
+          </maximum>
+        </quantitative>
+      </scale>
+    </criterion>
+    <criterion id="c4" name="Unknown">
+      <scale>
+        <quantitative>
+          <preferenceDirection>max</preferenceDirection>
+          <minimum>
+            <real>0.0</real>
+          </minimum>
+          <maximum>
+            <real>100.0</real>
+          </maximum>
+        </quantitative>
+      </scale>
+    </criterion>
+  </criteria>
+</xmc:XMCDA>

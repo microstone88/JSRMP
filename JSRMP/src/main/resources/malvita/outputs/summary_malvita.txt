@@ -1,0 +1,96 @@
+
+---------- General informations ----------
+Date	:2014-01-11 01:48:00
+Owner	:MICRO
+O.S.	:x86_64 MAC OS X platform (version 10.9.1)
+Ref	:malvita
+Exp.ID	:malvita_1389401280820
+
+---------- SUMMARY REPORT ----------
+
+
+[Generation Process]
+[i] 100 alternatives have been generated.
+[i] 4 criteria have been generated.
+[i] The alternatives are evaluated on discrete scale and the values are randomized between [0,100] and the rating scale increment is 1.
+[i] The weights of criteria have been randomized between [0.01,0.99] and normalized to 1.
+[i] The number of reference points is determined. 3 reference point(s) have/has been generated.
+[i] The lexicographic order of reference points is randomly selected.
+[i] 20 pairs of alternatives have been randomly selected.
+[i] 31 different alternatives are involved in the pairwise comparisons.
+[i] The generated model is ready.
+
+ *** Files Exporting *** 
+
+[Re] Global ranking list:
+    1: [Alternative [a0024]]
+    2: [Alternative [a0096], Alternative [a0058], Alternative [a0045], Alternative [a0056], Alternative [a0055], Alternative [a0018], Alternative [a0034], Alternative [a0061]]
+    3: [Alternative [a0022]]
+    4: [Alternative [a0071]]
+    5: [Alternative [a0019]]
+    6: [Alternative [a0014]]
+    7: [Alternative [a0095], Alternative [a0032], Alternative [a0050]]
+    8: [Alternative [a0077]]
+    9: [Alternative [a0015]]
+    10: [Alternative [a0040]]
+    11: [Alternative [a0076]]
+    12: [Alternative [a0008]]
+    13: [Alternative [a0067]]
+    14: [Alternative [a0021], Alternative [a0059], Alternative [a0041], Alternative [a0089]]
+    15: [Alternative [a0023]]
+    16: [Alternative [a0090], Alternative [a0035], Alternative [a0065]]
+    17: [Alternative [a0020], Alternative [a0094], Alternative [a0031], Alternative [a0038]]
+    18: [Alternative [a0080], Alternative [a0011]]
+    19: [Alternative [a0087]]
+    20: [Alternative [a0033]]
+    21: [Alternative [a0075]]
+    22: [Alternative [a0006], Alternative [a0084]]
+    23: [Alternative [a0010]]
+    24: [Alternative [a0079], Alternative [a0009], Alternative [a0083], Alternative [a0073], Alternative [a0074], Alternative [a0027]]
+    25: [Alternative [a0088]]
+    26: [Alternative [a0048], Alternative [a0093]]
+    27: [Alternative [a0082]]
+    28: [Alternative [a0016]]
+    29: [Alternative [a0100], Alternative [a0036]]
+    30: [Alternative [a0030]]
+    31: [Alternative [a0017]]
+    32: [Alternative [a0003]]
+    33: [Alternative [a0001]]
+    34: [Alternative [a0066]]
+    35: [Alternative [a0063]]
+    36: [Alternative [a0099]]
+    37: [Alternative [a0047]]
+    38: [Alternative [a0042], Alternative [a0013]]
+    39: [Alternative [a0052]]
+    40: [Alternative [a0025]]
+    41: [Alternative [a0005]]
+    42: [Alternative [a0046], Alternative [a0029]]
+    43: [Alternative [a0081]]
+    44: [Alternative [a0086]]
+    45: [Alternative [a0072], Alternative [a0028], Alternative [a0085]]
+    46: [Alternative [a0043], Alternative [a0057]]
+    47: [Alternative [a0053]]
+    48: [Alternative [a0062]]
+    49: [Alternative [a0051], Alternative [a0037]]
+    50: [Alternative [a0026]]
+    51: [Alternative [a0078]]
+    52: [Alternative [a0054]]
+    53: [Alternative [a0044]]
+    54: [Alternative [a0064], Alternative [a0007]]
+    55: [Alternative [a0039]]
+    56: [Alternative [a0060]]
+    57: [Alternative [a0091]]
+    58: [Alternative [a0068], Alternative [a0012]]
+    59: [Alternative [a0070]]
+    60: [Alternative [a0004]]
+    61: [Alternative [a0069]]
+    62: [Alternative [a0098]]
+    63: [Alternative [a0097]]
+    64: [Alternative [a0002]]
+    65: [Alternative [a0092]]
+    66: [Alternative [a0049]]
+
+[i] 8/8 files have been exported.
+[i] Exporting completed!
+
+---------- END OF OUTPUTS ----------
